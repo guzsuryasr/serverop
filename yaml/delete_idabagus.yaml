@@ -1,0 +1,7 @@
+- name: remove an instance
+  hosts: localhost
+  tasks:
+    - name: remove an instance
+      os_server:
+        name: hvjweh
+        state: absent

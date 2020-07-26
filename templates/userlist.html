@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    {% include "header.html" %}
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+  {% include "header2.html" %}
+  {% include "leftnavbar.html" %}
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <section class="content-header">
+        <h1>
+          &nbsp;
+        </h1>
+        <ol class="breadcrumb">
+          <li><a href="dashboard"><i class="fa fa-dashboard"></i>DASHBOARD</a></li>
+          <li class="active">DAFTAR PROFIL</li>
+        </ol>
+      </section>
+
+      <!-- Main content -->
+      <section class="content container-fluid">
+
+        <!--------------------------
+          | Your Page Content Here |
+          -------------------------->
+          <div class="col-md-12">
+            <!-- Horizontal Form -->
+            <div class="box box-info">
+              <div class="box-header with-border">
+                <h3 class="box-title">DAFTAR PROFIL</h3>
+              </div>
+              <!-- /.box-header -->
+              <!-- form start -->
+
+                <table class="table table-hover" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%">
+                  <thead>
+                    <tr>
+                      <th>Username</th>
+                      <th>Email</th>
+                      <th>Status</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for row in user %}
+                      <tr>
+                        <td>{{row['username']}}</td>
+                        <td>{{row['email']}}</td>
+                        <td>{{'PROFIL AKTIF' if row['level'] >= 0 else 'PROFIL TIDAK AKTIF' }}</td>
+                        <td align="right">
+                          {% if row['level'] > 0 %}
+                            <button onclick="save('{{row['username']}}')" type="button" class="btn btn-danger" style="width: 150px;">NON AKTIFKAN</button>
+                          {% elif row['level'] < 0 %}
+                            <button onclick="save('{{row['username']}}')" type="button" class="btn btn-success" style="width: 150px;">AKTIFKAN</button>
+                          {% else %}
+                            <button type="button" class="btn btn-danger" style="width: 150px;" disabled>NON AKTIFKAN</button>
+                          {% endif %}
+                        </td>
+                      </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+                <!-- /.box-body -->
+                 &nbsp;
+                <!-- /.box-footer -->
+              </div>
+              <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+          </div>
+          <!--/.col (right) -->
+        </div>
+
+      </section>
+      <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+
+    <div class="modal fade" id="modal-default">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Konfirmasi</h4>
+          </div>
+          <div class="modal-body">
+            <p>Apakah anda ingin melakukan perubahan pada profil&hellip; ?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Tidak</button>
+            <button onclick="confirm()" type="button" class="btn btn-primary">Simpan</button>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+      </section>
+      <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+
+  {% include "footer.html" %}
+  {% include "sidebar.html" %}
+  <div class="control-sidebar-bg"></div>
+</div>
+
+{% include "javascript.html" %}
+<script type="text/javascript">
+
+  var userid = "";
+
+  function save(username) {
+
+    userid = username;
+
+    $("#modal-default").modal('toggle');
+
+  }
+
+  function confirm() {
+
+      $.ajax({url: "userlist-save",
+        type:"post",
+        contentType: 'application/json;charset=UTF-8',
+        data:JSON.stringify({'data': {'username': userid}}),
+        success: function(result){
+          window.location.href = "userlist";
+        }
+      });
+
+  }
+
+</script>
+
+</body>
+</html>

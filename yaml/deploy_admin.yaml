@@ -1,0 +1,16 @@
+- name: Deploy on OpenStack
+  hosts: localhost
+  gather_facts: false
+  tasks:
+  - name: Deploy an instance
+    os_server:
+      state: present
+      name: Bejo
+      image: cirros
+      key_name: admin
+      wait: yes
+      flavor: tempest2
+      auto_floating_ip: yes
+      network: public
+      meta:
+        hostname: webserver.localdomain

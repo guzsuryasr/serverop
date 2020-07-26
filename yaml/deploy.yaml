@@ -1,0 +1,16 @@
+- name: Deploy on OpenStack
+  hosts: localhost
+  gather_facts: false
+  tasks:
+  - name: Deploy an instance
+    os_server:
+      state: present
+      name: <name>
+      image: <image>
+      key_name: keyspair
+      wait: yes
+      flavor: <flav>
+      auto_floating_ip: yes
+      network: int-ext
+      meta:
+        hostname: webserver.localdomain
