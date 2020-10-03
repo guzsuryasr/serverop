@@ -38,39 +38,58 @@
               </div>
               <!-- /.box-header -->
               <!-- form start -->
-
-                <table class="table table-hover" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%">
-                  <thead>
-                    <tr>
-                      <th>Nama Project</th>
-                      <th>Deskripsi</th>
-                      <th>Sistem Operasi</th>
-                      <th>Konfigurasi CPU</th>
-                      {% if level == 0 %}
-                        <th>Pengguna</th>
-                      {% endif %}
-                      <th>IP Address</th>
-                      <th></th>
-                    </tr>
-                  </thead>
-                  <tbody>
+              <div class="row">
                     {% for row in project %}
-                      <tr>
-                        <td>{{row['project']}}</td>
-                        <td>{{row['description']}}</td>
-                        <td>{{row['osdesc']}}</td>
-                        <td>{{row['cpudesc']}}</td>
-                        {% if level == 0 %}
-                          <td>{{row['user']}}</td>
-                        {% endif %}
-                        <td>{{row['addr']}}</td>
-                        <td align="right">
-                            <button onclick="del('{{row['id']}}')" type="button" class="btn btn-danger" style="width: 100;">HAPUS</button>
-                        </td>
-                      </tr>
+                      
+                        <div class="col-md-12" style="margin-bottom: 10px;">
+                          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample{{row['id']}}" role="button" aria-expanded="false" aria-controls="collapseExample" style="width: 100%;">
+                            {{row['project']}}
+                          </a>
+                          <div class="collapse" id="collapseExample{{row['id']}}">
+                            <p>
+                              Deskripsi : {{row['description']}}</br>
+                              Sistem Operasi : {{row['osdesc']}}</br>
+                              Konfigurasi CPU : {{row['cpudesc']}}</br>
+                              {% if level == 0 %}
+                              Pengguna : {{row['user']}}</br>
+                              {% endif %}
+                              IP Address : {{row['addr']}}</br>
+                              <a>SSH Key</a>
+                            </p>
+                            <div class="card card-body">
+                              <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="Apache{{row['id']}}" onclick="checkboxXampp('{{row['id']}}')">
+                            <label class="custom-control-label" for="Apache">Xampp</label>
+                          </div>
+                        </div>
+                        <button onclick="del('{{row['id']}}')" type="button" class="btn btn-danger" style="width: 100;float: right;margin-bottom: 10px;">HAPUS</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{row['id']}}" id="install{{row['id']}}" style="display: none;">
+                          install 
+                        </button>
+                          </div>
+                        </div>
+
+                        <div class="modal fade" id="exampleModal{{row['id']}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Simpan Konfigurasi</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                Apakah aplikasi yang akan diinstall sudah sesuai dengan yang anda inginkan?
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                                <button type="submit" class="btn btn-primary">Lanjutkan & install</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                     {% endfor %}
-                  </tbody>
-                </table>
+                      </div>
                 <!-- /.box-body -->
                  &nbsp;
                 <!-- /.box-footer -->
@@ -130,6 +149,15 @@
 
     $("#modal-default").modal('toggle');
 
+  }
+
+  function checkboxXampp(idproject) {
+    var checkBox = document.getElementById("Apache"+idproject);
+    if (checkBox.checked == true){
+      document.getElementById("install"+idproject).style.display = "inline-block";
+    } else {
+      document.getElementById("install"+idproject).style.display = "none";
+    }
   }
 
   function confirm() {

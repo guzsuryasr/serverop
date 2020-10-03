@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    {% include "header.html" %}
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+  {% include "header2.html" %}
+
+  {% include "leftnavbar.html" %}
+
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <section class="content-header">
+        <h1>
+          &nbsp;
+        </h1>
+        <ol class="breadcrumb">
+          <li><a href="dashboard"><i class="fa fa-dashboard"></i>DASHBOARD</a></li>
+          <li class="active">BUAT BARU</li>
+        </ol>
+      </section>
+
+      <!-- Main content -->
+      <section class="content container-fluid">
+
+        <!--------------------------
+          | Your Page Content Here |
+          -------------------------->
+                    <!-- right column -->
+        <div class="col-md-12">
+            <!-- Horizontal Form -->
+            <div class="box box-info">
+              <div class="box-header with-border">
+                <h3 class="box-title">BUAT PROJECT BARU</h3>
+              </div>
+              <!-- /.box-header -->
+              <!-- form start -->
+              <form action="http://192.168.1.10:5005/project-save" method="POST" class="form-horizontal">
+                <div class="box-body">
+                  <div class="form-group">
+                    <label for="input" class="col-sm-2 control-label">Nama Project</label>
+
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" name="namaproject" id="namaproject" placeholder="Nama Project">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="input" class="col-sm-2 control-label" style="margin-right: 15px">Deskripsi</label>
+                    <div class="col-sm-6" style="padding-right: 30px; padding-left: 0px;">
+                      <textarea class="form-control" name="deskripsi" rows="3" placeholder="Masukan deskripsi project" style="margin: 0px 2.5px 0px 0px; height: 117px;width: 543px;max-width: 100%;min-width: 100%;"></textarea>
+
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="input" class="col-sm-2 control-label" style="margin-right: 15px">Sistem Operasi</label>
+                    <div class="col-sm-6" style="padding-right: 30px; padding-left: 0px;">
+                      <select name="sistem_operasi" class="form-control">
+                        <option value="">Pilih sistem operasi</option>
+                        {% for data in json_data['images'] %}
+                          <option value="{{ data.id }}">{{ data.name }}</option>
+                        {% endfor %}
+                      </select>
+
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="input" class="col-sm-2 control-label" style="margin-right: 15px">CPU</label>
+                    <div class="col-sm-6" style="padding-right: 30px; padding-left: 0px;">
+                      <select name="cpu" class="form-control">
+                        <option value="">Pilih CPU</option>
+                        {% for data in json_data['flavors'] %}
+                          <option value="{{ data.id }}">Storage={{ data.disk }} GB, vCPU={{ data.vcpus }}, RAM={{ data.ram }} MB</option>
+                        {% endfor %}
+                      </select>
+
+                    </div>
+                  </div>
+<!--                   <div class="form-group">
+                    <label for="input" class="col-sm-2 control-label" style="margin-right: 15px">SSH Key</label>
+                    <div class="col-sm-6" style="padding-right: 30px; padding-left: 0px;">
+                      <input type="password" name="password" class="form-control" placeholder="Masukan kunci SSH">
+
+                    </div>
+                  </div> -->
+
+<!--                   <div class="form-group">
+                    <label for="input" class="col-sm-2 control-label" style="margin-right: 15px">Install Package</label>
+                    <div class="col-sm-6" style="padding-right: 30px; padding-left: 0px;">
+                      <select name="paketinstall" class="form-control">
+                        <option value="manual" selected>Manual</option>
+                        <option value="otomatis">Otomatis</option>
+                        </select>
+
+                    </div>
+                  </div>
+
+                  <div class="form-group webserver">
+                    <label for="input" class="col-sm-2 control-label" style="margin-right: 15px">Web Server</label>
+                    <div class="col-sm-6" style="padding-right: 30px; padding-left: 0px;">
+                      <select class="form-control">
+                        <option name="paket" value="">Pilih web server</option>
+                        <option value="apache">Apache2</option>
+                        <option value="nginx">Nginx</option>
+                        <option value="nodejs">Node.js</option>
+                        </select>
+
+                    </div>
+                  </div> -->
+
+                </div>
+                <!-- /.box-body -->
+                <div class="box-footer">
+                  <button onclick="cancel()" class="btn btn-default">BATAL</button>
+                  <!-- <button type="submit" class="btn btn-info pull-right" data-toggle="modal" data-target="#modal-default">Simpan dan Buat</button> -->
+                  <input value="SIMPAN DAN BUAT PROJECT" type="submit" class="btn btn-info pull-right" />
+                </div>
+              </form>
+
+                <!-- /.box-footer -->
+              </div>
+              <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+          </div>
+          <!--/.col (right) -->
+        </div>
+
+      </section>
+      <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+
+    <div class="modal fade" id="modal-default">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Konfirmasi</h4>
+          </div>
+          <div class="modal-body">
+            <p>Apakah form yang diisi sudah sesuai kebutuhan? &hellip;</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Kembali</button>
+            <button type="button" class="btn btn-primary">Simpan dan Lanjutkan</button>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+  {% include "footer.html" %}
+  {% include "sidebar.html" %}
+  <div class="control-sidebar-bg"></div>
+</div>
+
+{% include "javascript.html" %}
+<script>
+    function cancel() {
+        // document.getElementById;
+        window.history.back();
+    }
+
+    $('.webserver').hide();
+
+    $('select[name="paketinstall"]').change(function(){
+      var val = $(this).val();
+      if(val === 'otomatis'){
+        $('.webserver').show('fade');
+      } else {
+        $('.webserver').hide('fade');
+      }
+    });
+    </script>
+
+</body>
+</html>

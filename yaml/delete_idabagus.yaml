@@ -3,5 +3,5 @@
   tasks:
     - name: remove an instance
       os_server:
-        name: hvjweh
+        name: ibrwew
         state: absent

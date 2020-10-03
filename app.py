@@ -329,7 +329,8 @@ def projectlist():
 
     project = None
     if level == 0:
-        project = Project.query.all();
+        # project = Project.query.all();
+        project = Project.query.filter_by(user=current_user.username).all();
     else:
         project = Project.query.filter_by(user=current_user.username).all();
 
@@ -338,7 +339,7 @@ def projectlist():
     for pj in project:
         for dt in data:
             if pj.project == dt["name"]:
-                pj.addr = dt["openstack.compute.v2.server.Server"]["addresses"]["int-ext"][0]["addr"]
+                pj.addr = dt["addresses"]["int-ext"][0]["addr"]
 
     return render_template('projectlist.html', project=project, level=level)
 

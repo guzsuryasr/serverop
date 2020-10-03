@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    {% include "header.html" %}
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+  {% include "header2.html" %}
+  {% include "leftnavbar.html" %}
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <section class="content-header">
+        <h1>
+          &nbsp;
+        </h1>
+        <ol class="breadcrumb">
+          <li><a href="dashboard"><i class="fa fa-dashboard"></i>DASHBOARD</a></li>
+          <li class="active">DAFTAR PROJECT</li>
+        </ol>
+      </section>
+
+      <!-- Main content -->
+      <section class="content container-fluid">
+
+        <!--------------------------
+          | Your Page Content Here |
+          -------------------------->
+          <div class="col-md-12">
+            <!-- Horizontal Form -->
+            <div class="box box-info">
+              <div class="box-header with-border">
+                <h3 class="box-title">DAFTAR PROJECT</h3>
+              </div>
+              <!-- /.box-header -->
+              <!-- form start -->
+
+                <table class="table table-hover" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%">
+                  <thead>
+                    <tr>
+                      <th>Nama Project</th>
+                      <th>Deskripsi</th>
+                      <th>Sistem Operasi</th>
+                      <th>Konfigurasi CPU</th>
+                      {% if level == 0 %}
+                        <th>Pengguna</th>
+                      {% endif %}
+                      <th>IP Address</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for row in project %}
+                      <tr>
+                        <td>{{row['project']}}</td>
+                        <td>{{row['description']}}</td>
+                        <td>{{row['osdesc']}}</td>
+                        <td>{{row['cpudesc']}}</td>
+                        {% if level == 0 %}
+                          <td>{{row['user']}}</td>
+                        {% endif %}
+                        <td>{{row['addr']}}</td>
+                        <td align="right">
+                            <button onclick="del('{{row['id']}}')" type="button" class="btn btn-danger" style="width: 100;">HAPUS</button>
+                        </td>
+                      </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+                <!-- /.box-body -->
+                 &nbsp;
+                <!-- /.box-footer -->
+              </div>
+              <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+          </div>
+          <!--/.col (right) -->
+        </div>
+
+      </section>
+      <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+
+    <div class="modal fade" id="modal-default">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Konfirmasi</h4>
+          </div>
+          <div class="modal-body">
+            <p>Apakah anda ingin melakukan perubahan pada profil&hellip; ?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Tidak</button>
+            <button onclick="confirm()" type="button" class="btn btn-primary">Simpan</button>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+      </section>
+      <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+
+  {% include "footer.html" %}
+  {% include "sidebar.html" %}
+  <div class="control-sidebar-bg"></div>
+</div>
+
+{% include "javascript.html" %}
+<script type="text/javascript">
+
+  var myid = "";
+
+  function del(mid) {
+
+    myid = mid;
+
+    $("#modal-default").modal('toggle');
+
+  }
+
+  function confirm() {
+
+      $.ajax({url: "projectlist-del",
+        type:"post",
+        contentType: 'application/json;charset=UTF-8',
+        data:JSON.stringify({'data': {'id': myid}}),
+        success: function(result){
+          window.location.href = "projectlist";
+        }
+      });
+
+  }
+
+</script>
+
+</body>
+</html>
