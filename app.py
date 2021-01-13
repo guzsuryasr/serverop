@@ -293,6 +293,29 @@ def project_save():
 
     return render_template('projectlist.html', project=project, level=level)
 
+@app.route('installpaket', methods=['POSt','GET'])
+def installpaket():
+    project = None
+    if level == 0:
+        # project = Project.query.all();
+        project = Project.query.filter_by(user=current_user.username).all();
+    else:
+        project = Project.query.filter_by(user=current_user.username).all();
+
+    data = getproject()
+    f = open("/etc/ansible/host", "w+")
+    for pj in project:
+        for dt in data:
+            if pj.project == dt["name"]:
+                pj.addr = dt["addresses"]["int-ext"][0]["addr"]
+                f.write("%s ansible_user=ubuntu ansible_ssh_private_key_file=/home/gustu/myweb/keyspair.pem",pj.addr)
+                
+
+    p = subprocess.Popen("ansible-playbook " + "yaml/deploy_"+current_user.username+".yaml", shell=True, stdout=subprocess.PIPE)
+    stdout, stderr = p.communicate()
+
+    return render_template('projectlist.html', project=project, level=level)
+
 @app.route('/projectlist-del', methods=['GET','POST'])
 def project_del():
     data = request.json['data']
