@@ -1,0 +1,1153 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1610139514893,617,Home Page,200,OK,Scenario 1 1-1,text,true,,51151,313,1,1,http://192.168.1.10:5005/,221,0,117
+1610139515533,259,dashboard,200,OK,Scenario 1 1-1,text,true,,12429,322,1,1,http://192.168.1.10:5005/dashboard,178,0,89
+1610139515892,295,Home Page,200,OK,Scenario 1 1-2,text,true,,51151,313,2,2,http://192.168.1.10:5005/,161,0,48
+1610139516190,65,dashboard,200,OK,Scenario 1 1-2,text,true,,12429,322,2,2,http://192.168.1.10:5005/dashboard,62,0,32
+1610139516259,263,Buat Instance,200,OK,Scenario 1 1-2,text,true,,15626,321,2,2,http://192.168.1.10:5005/buatbaru,240,0,8
+1610139515793,730,Buat Instance,200,OK,Scenario 1 1-1,text,true,,15626,321,2,2,http://192.168.1.10:5005/buatbaru,319,0,49
+1610139516892,156,Home Page,200,OK,Scenario 1 1-3,text,true,,51151,313,3,3,http://192.168.1.10:5005/,67,0,21
+1610139517049,44,dashboard,200,OK,Scenario 1 1-3,text,true,,12429,322,3,3,http://192.168.1.10:5005/dashboard,40,0,9
+1610139517094,268,Buat Instance,200,OK,Scenario 1 1-3,text,true,,15626,321,3,3,http://192.168.1.10:5005/buatbaru,245,0,33
+1610139517529,112,Page Returning 404,404,NOT FOUND,Scenario 1 1-2,text,true,,393,317,3,3,http://192.168.1.10:5005/test,112,0,64
+1610139517625,58,Page Returning 404,404,NOT FOUND,Scenario 1 1-1,text,true,,393,317,3,3,http://192.168.1.10:5005/test,58,0,27
+1610139517642,281,Home Page,200,OK,Scenario 1 1-2,text,true,,51151,313,4,4,http://192.168.1.10:5005/,87,0,35
+1610139517685,387,Home Page,200,OK,Scenario 1 1-1,text,true,,51151,313,4,4,http://192.168.1.10:5005/,111,0,44
+1610139517924,223,dashboard,200,OK,Scenario 1 1-2,text,true,,12429,322,4,4,http://192.168.1.10:5005/dashboard,153,0,83
+1610139518073,129,dashboard,200,OK,Scenario 1 1-1,text,true,,12429,322,4,4,http://192.168.1.10:5005/dashboard,128,0,70
+1610139517891,338,Home Page,200,OK,Scenario 1 1-4,text,true,,51151,313,4,4,http://192.168.1.10:5005/,201,0,116
+1610139518230,65,dashboard,200,OK,Scenario 1 1-4,text,true,,12429,322,4,4,http://192.168.1.10:5005/dashboard,65,0,19
+1610139518148,350,Buat Instance,200,OK,Scenario 1 1-2,text,true,,15626,321,4,4,http://192.168.1.10:5005/buatbaru,313,0,52
+1610139518431,91,Page Returning 404,404,NOT FOUND,Scenario 1 1-3,text,true,,393,317,4,4,http://192.168.1.10:5005/test,90,0,49
+1610139518203,340,Buat Instance,200,OK,Scenario 1 1-1,text,true,,15626,321,4,4,http://192.168.1.10:5005/buatbaru,304,0,27
+1610139518523,261,Home Page,200,OK,Scenario 1 1-3,text,true,,51151,313,4,4,http://192.168.1.10:5005/,122,0,47
+1610139518785,62,dashboard,200,OK,Scenario 1 1-3,text,true,,12429,322,4,4,http://192.168.1.10:5005/dashboard,62,0,17
+1610139518892,211,Home Page,200,OK,Scenario 1 1-5,text,true,,51151,313,5,5,http://192.168.1.10:5005/,91,0,41
+1610139518848,322,Buat Instance,200,OK,Scenario 1 1-3,text,true,,15626,321,5,5,http://192.168.1.10:5005/buatbaru,289,0,46
+1610139519104,71,dashboard,200,OK,Scenario 1 1-5,text,true,,12429,322,5,5,http://192.168.1.10:5005/dashboard,68,0,19
+1610139518296,1147,Buat Instance,200,OK,Scenario 1 1-4,text,true,,15626,321,5,5,http://192.168.1.10:5005/buatbaru,1107,0,23
+1610139519176,291,Buat Instance,200,OK,Scenario 1 1-5,text,true,,15626,321,5,5,http://192.168.1.10:5005/buatbaru,267,0,36
+1610139519499,65,Page Returning 404,404,NOT FOUND,Scenario 1 1-2,text,true,,393,317,5,5,http://192.168.1.10:5005/test,65,0,24
+1610139519552,90,Page Returning 404,404,NOT FOUND,Scenario 1 1-1,text,true,,393,317,5,5,http://192.168.1.10:5005/test,90,0,49
+1610139519565,213,Home Page,200,OK,Scenario 1 1-2,text,true,,51151,313,5,5,http://192.168.1.10:5005/,92,0,45
+1610139519643,263,Home Page,200,OK,Scenario 1 1-1,text,true,,51151,313,6,6,http://192.168.1.10:5005/,91,0,43
+1610139519907,267,dashboard,200,OK,Scenario 1 1-1,text,true,,12429,322,6,6,http://192.168.1.10:5005/dashboard,267,0,220
+1610139519891,327,Home Page,200,OK,Scenario 1 1-6,text,true,,51151,313,6,6,http://192.168.1.10:5005/,236,0,6
+1610139520220,89,dashboard,200,OK,Scenario 1 1-6,text,true,,12429,322,6,6,http://192.168.1.10:5005/dashboard,54,0,12
+1610139520242,69,Page Returning 404,404,NOT FOUND,Scenario 1 1-3,text,true,,393,317,6,6,http://192.168.1.10:5005/test,69,0,22
+1610139520312,122,Home Page,200,OK,Scenario 1 1-3,text,true,,51151,313,6,6,http://192.168.1.10:5005/,50,0,31
+1610139520435,48,dashboard,200,OK,Scenario 1 1-3,text,true,,12429,322,6,6,http://192.168.1.10:5005/dashboard,47,0,19
+1610139520310,282,Buat Instance,200,OK,Scenario 1 1-6,text,true,,15626,321,6,6,http://192.168.1.10:5005/buatbaru,250,0,33
+1610139520530,66,Page Returning 404,404,NOT FOUND,Scenario 1 1-5,text,true,,393,317,6,6,http://192.168.1.10:5005/test,65,0,19
+1610139520499,111,Page Returning 404,404,NOT FOUND,Scenario 1 1-4,text,true,,393,317,6,6,http://192.168.1.10:5005/test,111,0,50
+1610139520596,156,Home Page,200,OK,Scenario 1 1-5,text,true,,51151,313,6,6,http://192.168.1.10:5005/,63,0,27
+1610139520484,295,Buat Instance,200,OK,Scenario 1 1-3,text,true,,15626,321,6,6,http://192.168.1.10:5005/buatbaru,264,0,23
+1610139520612,167,Home Page,200,OK,Scenario 1 1-4,text,true,,51151,313,6,6,http://192.168.1.10:5005/,50,0,12
+1610139520753,75,dashboard,200,OK,Scenario 1 1-5,text,true,,12429,322,6,6,http://192.168.1.10:5005/dashboard,75,0,26
+1610139520174,675,Buat Instance,200,OK,Scenario 1 1-1,text,true,,15626,321,6,6,http://192.168.1.10:5005/buatbaru,326,0,42
+1610139519779,1079,dashboard,200,OK,Scenario 1 1-2,text,true,,12429,322,6,6,http://192.168.1.10:5005/dashboard,1079,0,1048
+1610139520780,79,dashboard,200,OK,Scenario 1 1-4,text,true,,12429,322,6,6,http://192.168.1.10:5005/dashboard,78,0,48
+1610139520891,141,Home Page,200,OK,Scenario 1 1-7,text,true,,51151,313,7,7,http://192.168.1.10:5005/,67,0,12
+1610139521033,64,dashboard,200,OK,Scenario 1 1-7,text,true,,12429,322,7,7,http://192.168.1.10:5005/dashboard,59,0,41
+1610139520829,312,Buat Instance,200,OK,Scenario 1 1-5,text,true,,15626,321,7,7,http://192.168.1.10:5005/buatbaru,268,0,20
+1610139520860,398,Buat Instance,200,OK,Scenario 1 1-4,text,true,,15626,321,7,7,http://192.168.1.10:5005/buatbaru,373,0,28
+1610139520859,424,Buat Instance,200,OK,Scenario 1 1-2,text,true,,15626,321,7,7,http://192.168.1.10:5005/buatbaru,355,0,29
+1610139521098,269,Buat Instance,200,OK,Scenario 1 1-7,text,true,,15626,321,7,7,http://192.168.1.10:5005/buatbaru,265,0,43
+1610139521657,27,Page Returning 404,404,NOT FOUND,Scenario 1 1-6,text,true,,393,317,7,7,http://192.168.1.10:5005/test,27,0,16
+1610139521685,95,Home Page,200,OK,Scenario 1 1-6,text,true,,51151,313,7,7,http://192.168.1.10:5005/,51,0,33
+1610139521781,46,dashboard,200,OK,Scenario 1 1-6,text,true,,12429,322,7,7,http://192.168.1.10:5005/dashboard,46,0,26
+1610139521819,29,Page Returning 404,404,NOT FOUND,Scenario 1 1-3,text,true,,393,317,7,7,http://192.168.1.10:5005/test,28,0,11
+1610139521849,112,Home Page,200,OK,Scenario 1 1-3,text,true,,51151,313,8,8,http://192.168.1.10:5005/,27,0,5
+1610139521910,51,Page Returning 404,404,NOT FOUND,Scenario 1 1-1,text,true,,393,317,8,8,http://192.168.1.10:5005/test,51,0,29
+1610139521961,79,dashboard,200,OK,Scenario 1 1-3,text,true,,12429,322,8,8,http://192.168.1.10:5005/dashboard,77,0,21
+1610139521892,188,Home Page,200,OK,Scenario 1 1-8,text,true,,51151,313,8,8,http://192.168.1.10:5005/,52,0,26
+1610139521962,135,Home Page,200,OK,Scenario 1 1-1,text,true,,51151,313,8,8,http://192.168.1.10:5005/,78,0,20
+1610139522081,26,dashboard,200,OK,Scenario 1 1-8,text,true,,12429,322,8,8,http://192.168.1.10:5005/dashboard,23,0,8
+1610139522098,109,dashboard,200,OK,Scenario 1 1-1,text,true,,12429,322,8,8,http://192.168.1.10:5005/dashboard,109,0,46
+1610139522161,78,Page Returning 404,404,NOT FOUND,Scenario 1 1-5,text,true,,393,317,8,8,http://192.168.1.10:5005/test,78,0,46
+1610139522281,89,Page Returning 404,404,NOT FOUND,Scenario 1 1-4,text,true,,393,317,8,8,http://192.168.1.10:5005/test,88,0,6
+1610139521828,592,Buat Instance,200,OK,Scenario 1 1-6,text,true,,15626,321,8,8,http://192.168.1.10:5005/buatbaru,544,0,8
+1610139522347,107,Page Returning 404,404,NOT FOUND,Scenario 1 1-2,text,true,,393,317,8,8,http://192.168.1.10:5005/test,107,0,33
+1610139522041,422,Buat Instance,200,OK,Scenario 1 1-3,text,true,,15626,321,8,8,http://192.168.1.10:5005/buatbaru,348,0,40
+1610139522107,401,Buat Instance,200,OK,Scenario 1 1-8,text,true,,15626,321,8,8,http://192.168.1.10:5005/buatbaru,355,0,46
+1610139522240,268,Home Page,200,OK,Scenario 1 1-5,text,true,,51151,313,8,8,http://192.168.1.10:5005/,95,0,47
+1610139522420,111,Page Returning 404,404,NOT FOUND,Scenario 1 1-7,text,true,,393,317,8,8,http://192.168.1.10:5005/test,111,0,57
+1610139522208,396,Buat Instance,200,OK,Scenario 1 1-1,text,true,,15626,321,8,8,http://192.168.1.10:5005/buatbaru,325,0,30
+1610139522509,102,dashboard,200,OK,Scenario 1 1-5,text,true,,12429,322,8,8,http://192.168.1.10:5005/dashboard,101,0,46
+1610139522370,312,Home Page,200,OK,Scenario 1 1-4,text,true,,51151,313,8,8,http://192.168.1.10:5005/,108,0,50
+1610139522458,304,Home Page,200,OK,Scenario 1 1-2,text,true,,51151,313,8,8,http://192.168.1.10:5005/,111,0,50
+1610139522683,196,dashboard,200,OK,Scenario 1 1-4,text,true,,12429,322,8,8,http://192.168.1.10:5005/dashboard,192,0,66
+1610139522763,226,dashboard,200,OK,Scenario 1 1-2,text,true,,12429,322,9,9,http://192.168.1.10:5005/dashboard,226,0,104
+1610139522612,503,Buat Instance,200,OK,Scenario 1 1-5,text,true,,15626,321,9,9,http://192.168.1.10:5005/buatbaru,455,0,70
+1610139522891,472,Home Page,200,OK,Scenario 1 1-9,text,true,,51151,313,9,9,http://192.168.1.10:5005/,180,0,115
+1610139522880,509,Buat Instance,200,OK,Scenario 1 1-4,text,true,,15626,321,9,9,http://192.168.1.10:5005/buatbaru,422,0,126
+1610139522990,461,Buat Instance,200,OK,Scenario 1 1-2,text,true,,15626,321,9,9,http://192.168.1.10:5005/buatbaru,374,0,80
+1610139523364,167,dashboard,200,OK,Scenario 1 1-9,text,true,,12429,322,9,9,http://192.168.1.10:5005/dashboard,166,0,108
+1610139523473,179,Page Returning 404,404,NOT FOUND,Scenario 1 1-6,text,true,,393,317,9,9,http://192.168.1.10:5005/test,178,0,56
+1610139522532,1207,Home Page,200,OK,Scenario 1 1-7,text,true,,51151,313,9,9,http://192.168.1.10:5005/,154,0,72
+1610139523533,216,Page Returning 404,404,NOT FOUND,Scenario 1 1-3,text,true,,393,317,9,9,http://192.168.1.10:5005/test,215,0,118
+1610139523569,210,Page Returning 404,404,NOT FOUND,Scenario 1 1-8,text,true,,393,317,9,9,http://192.168.1.10:5005/test,210,0,118
+1610139523608,188,Page Returning 404,404,NOT FOUND,Scenario 1 1-1,text,true,,393,317,9,9,http://192.168.1.10:5005/test,188,0,98
+1610139523739,109,dashboard,200,OK,Scenario 1 1-7,text,true,,12429,322,9,9,http://192.168.1.10:5005/dashboard,100,0,48
+1610139523532,598,Buat Instance,200,OK,Scenario 1 1-9,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,598,0,119
+1610139523653,479,Home Page,200,OK,Scenario 1 1-6,text,true,,51151,313,10,10,http://192.168.1.10:5005/,149,0,95
+1610139523749,385,Home Page,200,OK,Scenario 1 1-3,text,true,,51151,313,10,10,http://192.168.1.10:5005/,118,0,45
+1610139523797,361,Home Page,200,OK,Scenario 1 1-1,text,true,,51151,313,10,10,http://192.168.1.10:5005/,132,0,60
+1610139523780,429,Home Page,200,OK,Scenario 1 1-8,text,true,,51151,313,10,10,http://192.168.1.10:5005/,107,0,53
+1610139523891,319,Home Page,200,OK,Scenario 1 1-10,text,true,,51151,313,10,10,http://192.168.1.10:5005/,237,0,84
+1610139524135,110,dashboard,200,OK,Scenario 1 1-3,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,98,0,70
+1610139524132,113,dashboard,200,OK,Scenario 1 1-6,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,113,0,73
+1610139524159,86,dashboard,200,OK,Scenario 1 1-1,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,86,0,50
+1610139524176,70,Page Returning 404,404,NOT FOUND,Scenario 1 1-5,text,true,,393,317,10,10,http://192.168.1.10:5005/test,70,0,33
+1610139524210,40,dashboard,200,OK,Scenario 1 1-8,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,36,0,3
+1610139524211,42,dashboard,200,OK,Scenario 1 1-10,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,42,0,3
+1610139523848,511,Buat Instance,200,OK,Scenario 1 1-7,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,474,0,58
+1610139524247,224,Home Page,200,OK,Scenario 1 1-5,text,true,,51151,313,10,10,http://192.168.1.10:5005/,136,0,51
+1610139524473,27,dashboard,200,OK,Scenario 1 1-5,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,25,0,14
+1610139524484,41,Page Returning 404,404,NOT FOUND,Scenario 1 1-4,text,true,,393,317,10,10,http://192.168.1.10:5005/test,40,0,14
+1610139524538,78,Page Returning 404,404,NOT FOUND,Scenario 1 1-2,text,true,,393,317,10,10,http://192.168.1.10:5005/test,78,0,40
+1610139524526,106,Home Page,200,OK,Scenario 1 1-4,text,true,,51151,313,10,10,http://192.168.1.10:5005/,14,0,4
+1610139524254,456,Buat Instance,200,OK,Scenario 1 1-10,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,432,0,44
+1610139524633,82,dashboard,200,OK,Scenario 1 1-4,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,77,0,21
+1610139524617,136,Home Page,200,OK,Scenario 1 1-2,text,true,,51151,313,10,10,http://192.168.1.10:5005/,37,0,15
+1610139524246,533,Buat Instance,200,OK,Scenario 1 1-6,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,508,0,52
+1610139524251,556,Buat Instance,200,OK,Scenario 1 1-8,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,546,0,47
+1610139524753,92,dashboard,200,OK,Scenario 1 1-2,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,88,0,26
+1610139524246,612,Buat Instance,200,OK,Scenario 1 1-3,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,598,0,52
+1610139524246,712,Buat Instance,200,OK,Scenario 1 1-1,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,706,0,52
+1610139524501,457,Buat Instance,200,OK,Scenario 1 1-5,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,450,0,24
+1610139524892,138,Home Page,200,OK,Scenario 1 1-11,text,true,,51151,313,11,11,http://192.168.1.10:5005/,61,0,11
+1610139524716,404,Buat Instance,200,OK,Scenario 1 1-4,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,317,0,27
+1610139524845,320,Buat Instance,200,OK,Scenario 1 1-2,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,275,0,13
+1610139525031,138,dashboard,200,OK,Scenario 1 1-11,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,137,0,88
+1610139525133,96,Page Returning 404,404,NOT FOUND,Scenario 1 1-9,text,true,,393,317,11,11,http://192.168.1.10:5005/test,96,0,40
+1610139525230,269,Home Page,200,OK,Scenario 1 1-9,text,true,,51151,313,11,11,http://192.168.1.10:5005/,28,0,16
+1610139525170,336,Buat Instance,200,OK,Scenario 1 1-11,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,309,0,54
+1610139525418,89,Page Returning 404,404,NOT FOUND,Scenario 1 1-7,text,true,,393,317,11,11,http://192.168.1.10:5005/test,89,0,57
+1610139525500,38,dashboard,200,OK,Scenario 1 1-9,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,34,0,12
+1610139525507,147,Home Page,200,OK,Scenario 1 1-7,text,true,,51151,313,11,11,http://192.168.1.10:5005/,36,0,8
+1610139525655,72,dashboard,200,OK,Scenario 1 1-7,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,72,0,37
+1610139525539,350,Buat Instance,200,OK,Scenario 1 1-9,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,279,0,22
+1610139525759,130,Page Returning 404,404,NOT FOUND,Scenario 1 1-10,text,true,,393,317,11,11,http://192.168.1.10:5005/test,130,0,55
+1610139525837,153,Page Returning 404,404,NOT FOUND,Scenario 1 1-6,text,true,,393,317,12,12,http://192.168.1.10:5005/test,152,0,68
+1610139525855,193,Page Returning 404,404,NOT FOUND,Scenario 1 1-8,text,true,,393,317,12,12,http://192.168.1.10:5005/test,193,0,79
+1610139525728,402,Buat Instance,200,OK,Scenario 1 1-7,text,true,,15626,321,12,12,http://192.168.1.10:5005/buatbaru,274,0,9
+1610139525908,242,Page Returning 404,404,NOT FOUND,Scenario 1 1-3,text,true,,393,317,12,12,http://192.168.1.10:5005/test,241,0,58
+1610139526010,230,Page Returning 404,404,NOT FOUND,Scenario 1 1-1,text,true,,393,317,11,11,http://192.168.1.10:5005/test,230,0,120
+1610139526046,244,Page Returning 404,404,NOT FOUND,Scenario 1 1-5,text,true,,393,317,10,10,http://192.168.1.10:5005/test,243,0,109
+1610139526185,279,Page Returning 404,404,NOT FOUND,Scenario 1 1-2,text,true,,393,317,10,10,http://192.168.1.10:5005/test,279,0,138
+1610139526200,314,Page Returning 404,404,NOT FOUND,Scenario 1 1-4,text,true,,393,317,9,9,http://192.168.1.10:5005/test,314,0,174
+1610139525890,672,Home Page,200,OK,Scenario 1 1-10,text,true,,51151,313,9,9,http://192.168.1.10:5005/,243,0,76
+1610139525892,670,Home Page,200,OK,Scenario 1 1-12,text,true,,51151,313,9,9,http://192.168.1.10:5005/,248,0,74
+1610139525990,662,Home Page,200,OK,Scenario 1 1-6,text,true,,51151,313,9,9,http://192.168.1.10:5005/,249,0,140
+1610139526049,613,Home Page,200,OK,Scenario 1 1-8,text,true,,51151,313,9,9,http://192.168.1.10:5005/,243,0,120
+1610139526563,220,dashboard,200,OK,Scenario 1 1-12,text,true,,12429,322,9,9,http://192.168.1.10:5005/dashboard,219,0,99
+1610139526586,253,Page Returning 404,404,NOT FOUND,Scenario 1 1-11,text,true,,393,317,9,9,http://192.168.1.10:5005/test,252,0,142
+1610139526292,597,Home Page,200,OK,Scenario 1 1-5,text,true,,51151,313,9,9,http://192.168.1.10:5005/,283,0,161
+1610139526653,237,dashboard,200,OK,Scenario 1 1-6,text,true,,12429,322,9,9,http://192.168.1.10:5005/dashboard,222,0,118
+1610139526563,327,dashboard,200,OK,Scenario 1 1-10,text,true,,12429,322,9,9,http://192.168.1.10:5005/dashboard,223,0,99
+1610139526663,227,dashboard,200,OK,Scenario 1 1-8,text,true,,12429,322,9,9,http://192.168.1.10:5005/dashboard,227,0,116
+1610139526516,629,Home Page,200,OK,Scenario 1 1-4,text,true,,51151,313,10,10,http://192.168.1.10:5005/,223,0,124
+1610139526784,423,Buat Instance,200,OK,Scenario 1 1-12,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,363,0,105
+1610139526840,367,Home Page,200,OK,Scenario 1 1-11,text,true,,51151,313,10,10,http://192.168.1.10:5005/,306,0,112
+1610139526916,296,Page Returning 404,404,NOT FOUND,Scenario 1 1-9,text,true,,393,317,10,10,http://192.168.1.10:5005/test,296,0,231
+1610139526890,357,dashboard,200,OK,Scenario 1 1-5,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,354,0,258
+1610139527146,129,dashboard,200,OK,Scenario 1 1-4,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,128,0,61
+1610139527182,101,Page Returning 404,404,NOT FOUND,Scenario 1 1-7,text,true,,393,317,10,10,http://192.168.1.10:5005/test,101,0,29
+1610139527208,149,dashboard,200,OK,Scenario 1 1-11,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,140,0,62
+1610139526894,479,Home Page,200,OK,Scenario 1 1-13,text,true,,51151,313,10,10,http://192.168.1.10:5005/,350,0,254
+1610139527374,100,dashboard,200,OK,Scenario 1 1-13,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,89,0,34
+1610139527213,264,Home Page,200,OK,Scenario 1 1-9,text,true,,51151,313,10,10,http://192.168.1.10:5005/,135,0,57
+1610139527284,237,Home Page,200,OK,Scenario 1 1-7,text,true,,51151,313,10,10,http://192.168.1.10:5005/,97,0,40
+1610139527477,129,dashboard,200,OK,Scenario 1 1-9,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,127,0,78
+1610139526890,724,Buat Instance,200,OK,Scenario 1 1-10,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,702,0,258
+1610139527521,151,dashboard,200,OK,Scenario 1 1-7,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,144,0,51
+1610139526890,783,Buat Instance,200,OK,Scenario 1 1-6,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,750,0,258
+1610139526891,825,Buat Instance,200,OK,Scenario 1 1-8,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,795,0,257
+1610139527247,473,Buat Instance,200,OK,Scenario 1 1-5,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,459,0,36
+1610139527276,484,Buat Instance,200,OK,Scenario 1 1-4,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,440,0,30
+1610139527358,439,Buat Instance,200,OK,Scenario 1 1-11,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,422,0,36
+1610139527475,419,Buat Instance,200,OK,Scenario 1 1-13,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,377,0,45
+1610139527606,316,Buat Instance,200,OK,Scenario 1 1-9,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,294,0,8
+1610139527673,349,Buat Instance,200,OK,Scenario 1 1-7,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,325,0,43
+1610139527891,138,Home Page,200,OK,Scenario 1 1-14,text,true,,51151,313,11,11,http://192.168.1.10:5005/,60,0,30
+1610139528030,47,dashboard,200,OK,Scenario 1 1-14,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,46,0,10
+1610139528300,35,Page Returning 404,404,NOT FOUND,Scenario 1 1-12,text,true,,393,317,11,11,http://192.168.1.10:5005/test,35,0,10
+1610139528077,266,Buat Instance,200,OK,Scenario 1 1-14,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,258,0,20
+1610139528336,110,Home Page,200,OK,Scenario 1 1-12,text,true,,51151,313,11,11,http://192.168.1.10:5005/,35,0,7
+1610139528447,65,dashboard,200,OK,Scenario 1 1-12,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,65,0,37
+1610139528674,57,Page Returning 404,404,NOT FOUND,Scenario 1 1-6,text,true,,393,317,11,11,http://192.168.1.10:5005/test,57,0,18
+1610139528708,50,Page Returning 404,404,NOT FOUND,Scenario 1 1-10,text,true,,393,317,11,11,http://192.168.1.10:5005/test,50,0,16
+1610139528513,289,Buat Instance,200,OK,Scenario 1 1-12,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,235,0,18
+1610139528798,29,Page Returning 404,404,NOT FOUND,Scenario 1 1-8,text,true,,393,317,11,11,http://192.168.1.10:5005/test,28,0,11
+1610139528812,46,Page Returning 404,404,NOT FOUND,Scenario 1 1-4,text,true,,393,317,11,11,http://192.168.1.10:5005/test,46,0,14
+1610139528818,40,Page Returning 404,404,NOT FOUND,Scenario 1 1-5,text,true,,393,317,11,11,http://192.168.1.10:5005/test,40,0,15
+1610139528732,163,Home Page,200,OK,Scenario 1 1-6,text,true,,51151,313,10,10,http://192.168.1.10:5005/,76,0,57
+1610139528759,162,Home Page,200,OK,Scenario 1 1-10,text,true,,51151,313,10,10,http://192.168.1.10:5005/,67,0,43
+1610139528846,75,Page Returning 404,404,NOT FOUND,Scenario 1 1-11,text,true,,393,317,10,10,http://192.168.1.10:5005/test,75,0,18
+1610139528895,91,dashboard,200,OK,Scenario 1 1-6,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,85,0,25
+1610139528828,180,Home Page,200,OK,Scenario 1 1-8,text,true,,51151,313,10,10,http://192.168.1.10:5005/,68,0,30
+1610139528922,95,dashboard,200,OK,Scenario 1 1-10,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,89,0,34
+1610139528892,181,Home Page,200,OK,Scenario 1 1-15,text,true,,51151,313,10,10,http://192.168.1.10:5005/,79,0,28
+1610139528975,98,Page Returning 404,404,NOT FOUND,Scenario 1 1-13,text,true,,393,317,10,10,http://192.168.1.10:5005/test,98,0,33
+1610139529009,67,dashboard,200,OK,Scenario 1 1-8,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,64,0,36
+1610139528923,191,Home Page,200,OK,Scenario 1 1-11,text,true,,51151,313,10,10,http://192.168.1.10:5005/,85,0,33
+1610139529041,98,Page Returning 404,404,NOT FOUND,Scenario 1 1-7,text,true,,393,317,10,10,http://192.168.1.10:5005/test,98,0,32
+1610139529074,152,dashboard,200,OK,Scenario 1 1-15,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,149,0,88
+1610139529115,147,dashboard,200,OK,Scenario 1 1-11,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,140,0,51
+1610139529074,324,Home Page,200,OK,Scenario 1 1-13,text,true,,51151,313,10,10,http://192.168.1.10:5005/,151,0,88
+1610139529019,389,Page Returning 404,404,NOT FOUND,Scenario 1 1-9,text,true,,393,317,10,10,http://192.168.1.10:5005/test,389,0,38
+1610139528986,433,Buat Instance,200,OK,Scenario 1 1-6,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,386,0,22
+1610139529018,421,Buat Instance,200,OK,Scenario 1 1-10,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,356,0,39
+1610139529140,299,Home Page,200,OK,Scenario 1 1-7,text,true,,51151,313,10,10,http://192.168.1.10:5005/,112,0,29
+1610139529354,94,Page Returning 404,404,NOT FOUND,Scenario 1 1-14,text,true,,393,317,10,10,http://192.168.1.10:5005/test,94,0,50
+1610139529399,68,dashboard,200,OK,Scenario 1 1-13,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,66,0,42
+1610139529077,412,Buat Instance,200,OK,Scenario 1 1-8,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,376,0,85
+1610139529440,99,dashboard,200,OK,Scenario 1 1-7,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,99,0,24
+1610139529227,370,Buat Instance,200,OK,Scenario 1 1-15,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,319,0,43
+1610139529409,194,Home Page,200,OK,Scenario 1 1-9,text,true,,51151,313,10,10,http://192.168.1.10:5005/,81,0,43
+1610139529263,367,Buat Instance,200,OK,Scenario 1 1-11,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,327,0,58
+1610139529449,204,Home Page,200,OK,Scenario 1 1-14,text,true,,51151,313,10,10,http://192.168.1.10:5005/,94,0,18
+1610139529604,93,dashboard,200,OK,Scenario 1 1-9,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,93,0,48
+1610139529654,76,dashboard,200,OK,Scenario 1 1-14,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,74,0,32
+1610139529468,310,Buat Instance,200,OK,Scenario 1 1-13,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,302,0,53
+1610139529540,292,Buat Instance,200,OK,Scenario 1 1-7,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,286,0,34
+1610139529841,29,Page Returning 404,404,NOT FOUND,Scenario 1 1-12,text,true,,393,317,10,10,http://192.168.1.10:5005/test,29,0,21
+1610139529698,322,Buat Instance,200,OK,Scenario 1 1-9,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,265,0,36
+1610139529871,151,Home Page,200,OK,Scenario 1 1-12,text,true,,51151,313,11,11,http://192.168.1.10:5005/,50,0,6
+1610139529731,313,Buat Instance,200,OK,Scenario 1 1-14,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,288,0,39
+1610139529891,170,Home Page,200,OK,Scenario 1 1-16,text,true,,51151,313,11,11,http://192.168.1.10:5005/,70,0,30
+1610139530023,82,dashboard,200,OK,Scenario 1 1-12,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,79,0,39
+1610139530062,286,dashboard,200,OK,Scenario 1 1-16,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,286,0,38
+1610139530431,64,Page Returning 404,404,NOT FOUND,Scenario 1 1-6,text,true,,393,317,11,11,http://192.168.1.10:5005/test,64,0,35
+1610139530516,41,Page Returning 404,404,NOT FOUND,Scenario 1 1-10,text,true,,393,317,10,10,http://192.168.1.10:5005/test,41,0,29
+1610139530573,56,Page Returning 404,404,NOT FOUND,Scenario 1 1-8,text,true,,393,317,10,10,http://192.168.1.10:5005/test,56,0,11
+1610139530558,107,Home Page,200,OK,Scenario 1 1-10,text,true,,51151,313,10,10,http://192.168.1.10:5005/,30,0,8
+1610139530348,317,Buat Instance,200,OK,Scenario 1 1-12,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,285,0,66
+1610139530599,70,Page Returning 404,404,NOT FOUND,Scenario 1 1-15,text,true,,393,317,10,10,http://192.168.1.10:5005/test,70,0,50
+1610139530349,341,Buat Instance,200,OK,Scenario 1 1-16,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,319,0,65
+1610139530665,73,dashboard,200,OK,Scenario 1 1-10,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,68,0,25
+1610139530689,88,Page Returning 404,404,NOT FOUND,Scenario 1 1-11,text,true,,393,317,10,10,http://192.168.1.10:5005/test,88,0,27
+1610139530630,164,Home Page,200,OK,Scenario 1 1-8,text,true,,51151,313,10,10,http://192.168.1.10:5005/,61,0,35
+1610139530670,171,Home Page,200,OK,Scenario 1 1-15,text,true,,51151,313,10,10,http://192.168.1.10:5005/,69,0,20
+1610139530794,87,dashboard,200,OK,Scenario 1 1-8,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,85,0,39
+1610139530831,257,Page Returning 404,404,NOT FOUND,Scenario 1 1-13,text,true,,393,317,11,11,http://192.168.1.10:5005/test,257,0,34
+1610139530843,246,dashboard,200,OK,Scenario 1 1-15,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,245,0,38
+1610139530879,210,Page Returning 404,404,NOT FOUND,Scenario 1 1-7,text,true,,393,317,11,11,http://192.168.1.10:5005/test,210,0,12
+1610139530739,372,Buat Instance,200,OK,Scenario 1 1-10,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,368,0,41
+1610139531052,68,Page Returning 404,404,NOT FOUND,Scenario 1 1-9,text,true,,393,317,10,10,http://192.168.1.10:5005/test,68,0,37
+1610139531084,57,Page Returning 404,404,NOT FOUND,Scenario 1 1-14,text,true,,393,317,10,10,http://192.168.1.10:5005/test,56,0,6
+1610139530891,264,Home Page,200,OK,Scenario 1 1-17,text,true,,51151,313,10,10,http://192.168.1.10:5005/,216,0,197
+1610139530882,325,Buat Instance,200,OK,Scenario 1 1-8,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,304,0,16
+1610139530778,464,Home Page,200,OK,Scenario 1 1-11,text,true,,51151,313,10,10,http://192.168.1.10:5005/,64,0,27
+1610139531156,91,dashboard,200,OK,Scenario 1 1-17,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,91,0,29
+1610139531090,198,Home Page,200,OK,Scenario 1 1-13,text,true,,51151,313,10,10,http://192.168.1.10:5005/,69,0,16
+1610139531121,202,Home Page,200,OK,Scenario 1 1-9,text,true,,51151,313,10,10,http://192.168.1.10:5005/,64,0,33
+1610139531243,114,dashboard,200,OK,Scenario 1 1-11,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,114,0,45
+1610139531141,244,Home Page,200,OK,Scenario 1 1-14,text,true,,51151,313,10,10,http://192.168.1.10:5005/,100,0,44
+1610139531289,105,dashboard,200,OK,Scenario 1 1-13,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,104,0,49
+1610139531324,96,dashboard,200,OK,Scenario 1 1-9,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,94,0,50
+1610139531090,346,Buat Instance,200,OK,Scenario 1 1-15,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,289,0,16
+1610139531386,131,dashboard,200,OK,Scenario 1 1-14,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,130,0,75
+1610139531248,356,Buat Instance,200,OK,Scenario 1 1-17,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,323,0,42
+1610139531358,346,Buat Instance,200,OK,Scenario 1 1-11,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,331,0,55
+1610139531395,389,Buat Instance,200,OK,Scenario 1 1-13,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,370,0,66
+1610139531748,45,Page Returning 404,404,NOT FOUND,Scenario 1 1-12,text,true,,393,317,10,10,http://192.168.1.10:5005/test,44,0,16
+1610139531759,38,Page Returning 404,404,NOT FOUND,Scenario 1 1-16,text,true,,393,317,10,10,http://192.168.1.10:5005/test,38,0,25
+1610139531421,390,Buat Instance,200,OK,Scenario 1 1-9,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,371,0,45
+1610139531518,387,Buat Instance,200,OK,Scenario 1 1-14,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,355,0,46
+1610139531793,206,Home Page,200,OK,Scenario 1 1-12,text,true,,51151,313,11,11,http://192.168.1.10:5005/,52,0,18
+1610139531798,229,Home Page,200,OK,Scenario 1 1-16,text,true,,51151,313,11,11,http://192.168.1.10:5005/,107,0,14
+1610139531891,187,Home Page,200,OK,Scenario 1 1-18,text,true,,51151,313,11,11,http://192.168.1.10:5005/,77,0,33
+1610139532000,104,dashboard,200,OK,Scenario 1 1-12,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,80,0,44
+1610139532028,94,dashboard,200,OK,Scenario 1 1-16,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,94,0,38
+1610139532079,81,dashboard,200,OK,Scenario 1 1-18,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,77,0,43
+1610139532143,120,Page Returning 404,404,NOT FOUND,Scenario 1 1-10,text,true,,393,317,11,11,http://192.168.1.10:5005/test,120,0,42
+1610139532297,65,Page Returning 404,404,NOT FOUND,Scenario 1 1-8,text,true,,393,317,11,11,http://192.168.1.10:5005/test,65,0,34
+1610139532105,390,Buat Instance,200,OK,Scenario 1 1-12,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,339,0,48
+1610139532123,402,Buat Instance,200,OK,Scenario 1 1-16,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,350,0,32
+1610139532264,261,Home Page,200,OK,Scenario 1 1-10,text,true,,51151,313,10,10,http://192.168.1.10:5005/,98,0,52
+1610139532161,487,Buat Instance,200,OK,Scenario 1 1-18,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,328,0,46
+1610139532522,202,Page Returning 404,404,NOT FOUND,Scenario 1 1-15,text,true,,393,317,10,10,http://192.168.1.10:5005/test,202,0,161
+1610139532526,223,dashboard,200,OK,Scenario 1 1-10,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,219,0,198
+1610139532684,65,Page Returning 404,404,NOT FOUND,Scenario 1 1-17,text,true,,393,317,10,10,http://192.168.1.10:5005/test,65,0,40
+1610139532725,117,Home Page,200,OK,Scenario 1 1-15,text,true,,51151,313,10,10,http://192.168.1.10:5005/,30,0,17
+1610139532802,83,Page Returning 404,404,NOT FOUND,Scenario 1 1-11,text,true,,393,317,10,10,http://192.168.1.10:5005/test,82,0,17
+1610139532790,95,Page Returning 404,404,NOT FOUND,Scenario 1 1-13,text,true,,393,317,10,10,http://192.168.1.10:5005/test,94,0,29
+1610139532823,64,Page Returning 404,404,NOT FOUND,Scenario 1 1-9,text,true,,393,317,10,10,http://192.168.1.10:5005/test,64,0,20
+1610139532750,153,Home Page,200,OK,Scenario 1 1-17,text,true,,51151,313,10,10,http://192.168.1.10:5005/,71,0,18
+1610139532843,71,dashboard,200,OK,Scenario 1 1-15,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,69,0,30
+1610139532904,56,dashboard,200,OK,Scenario 1 1-17,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,54,0,6
+1610139532959,148,Page Returning 404,404,NOT FOUND,Scenario 1 1-14,text,true,,393,317,10,10,http://192.168.1.10:5005/test,148,0,87
+1610139532885,233,Home Page,200,OK,Scenario 1 1-13,text,true,,51151,313,10,10,http://192.168.1.10:5005/,66,0,24
+1610139532885,233,Home Page,200,OK,Scenario 1 1-11,text,true,,51151,313,10,10,http://192.168.1.10:5005/,66,0,24
+1610139532749,378,Buat Instance,200,OK,Scenario 1 1-10,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,328,0,19
+1610139532891,244,Home Page,200,OK,Scenario 1 1-19,text,true,,51151,313,10,10,http://192.168.1.10:5005/,61,0,18
+1610139533118,160,dashboard,200,OK,Scenario 1 1-13,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,159,0,71
+1610139533135,160,dashboard,200,OK,Scenario 1 1-19,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,152,0,54
+1610139533118,184,dashboard,200,OK,Scenario 1 1-11,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,182,0,71
+1610139532915,392,Buat Instance,200,OK,Scenario 1 1-15,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,309,0,36
+1610139532961,391,Buat Instance,200,OK,Scenario 1 1-17,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,345,0,85
+1610139533108,282,Home Page,200,OK,Scenario 1 1-14,text,true,,51151,313,10,10,http://192.168.1.10:5005/,140,0,79
+1610139533391,96,dashboard,200,OK,Scenario 1 1-14,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,73,0,53
+1610139533535,17,Page Returning 404,404,NOT FOUND,Scenario 1 1-16,text,true,,393,317,10,10,http://192.168.1.10:5005/test,17,0,7
+1610139533279,377,Buat Instance,200,OK,Scenario 1 1-13,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,355,0,48
+1610139533584,72,Page Returning 404,404,NOT FOUND,Scenario 1 1-12,text,true,,393,317,10,10,http://192.168.1.10:5005/test,72,0,39
+1610139533303,353,Buat Instance,200,OK,Scenario 1 1-11,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,320,0,28
+1610139533553,166,Home Page,200,OK,Scenario 1 1-16,text,true,,51151,313,10,10,http://192.168.1.10:5005/,39,0,5
+1610139533296,451,Buat Instance,200,OK,Scenario 1 1-19,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,404,0,31
+1610139533720,104,dashboard,200,OK,Scenario 1 1-16,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,91,0,28
+1610139533748,86,Page Returning 404,404,NOT FOUND,Scenario 1 1-18,text,true,,393,317,10,10,http://192.168.1.10:5005/test,86,0,59
+1610139533489,363,Buat Instance,200,OK,Scenario 1 1-14,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,335,0,11
+1610139533657,196,Home Page,200,OK,Scenario 1 1-12,text,true,,51151,313,10,10,http://192.168.1.10:5005/,91,0,62
+1610139533854,59,dashboard,200,OK,Scenario 1 1-12,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,56,0,16
+1610139533835,169,Home Page,200,OK,Scenario 1 1-18,text,true,,51151,313,11,11,http://192.168.1.10:5005/,71,0,35
+1610139533891,215,Home Page,200,OK,Scenario 1 1-20,text,true,,51151,313,11,11,http://192.168.1.10:5005/,68,0,31
+1610139533825,284,Buat Instance,200,OK,Scenario 1 1-16,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,258,0,27
+1610139533914,450,Buat Instance,200,OK,Scenario 1 1-12,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,346,0,34
+1610139534107,263,dashboard,200,OK,Scenario 1 1-20,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,258,0,130
+1610139534185,251,Page Returning 404,404,NOT FOUND,Scenario 1 1-10,text,true,,393,317,11,11,http://192.168.1.10:5005/test,251,0,132
+1610139534318,214,Page Returning 404,404,NOT FOUND,Scenario 1 1-15,text,true,,393,317,10,10,http://192.168.1.10:5005/test,214,0,118
+1610139534355,177,Page Returning 404,404,NOT FOUND,Scenario 1 1-17,text,true,,393,317,10,10,http://192.168.1.10:5005/test,177,0,98
+1610139534004,632,dashboard,200,OK,Scenario 1 1-18,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,105,0,44
+1610139534637,3219,Buat Instance,200,OK,Scenario 1 1-18,text,true,,15626,321,13,13,http://192.168.1.10:5005/buatbaru,3219,0,103
+1610139534371,3486,Buat Instance,200,OK,Scenario 1 1-20,text,true,,15626,321,13,13,http://192.168.1.10:5005/buatbaru,3486,0,96
+1610139534667,3192,Page Returning 404,404,NOT FOUND,Scenario 1 1-13,text,true,,393,317,13,13,http://192.168.1.10:5005/test,3191,0,102
+1610139534533,3327,Home Page,200,OK,Scenario 1 1-17,text,true,,51151,313,13,13,http://192.168.1.10:5005/,222,0,59
+1610139534533,3327,Home Page,200,OK,Scenario 1 1-15,text,true,,51151,313,13,13,http://192.168.1.10:5005/,218,0,59
+1610139534713,3213,Page Returning 404,404,NOT FOUND,Scenario 1 1-11,text,true,,393,317,14,14,http://192.168.1.10:5005/test,3213,0,3149
+1610139534883,3052,Page Returning 404,404,NOT FOUND,Scenario 1 1-14,text,true,,393,317,13,13,http://192.168.1.10:5005/test,3052,0,2974
+1610139534795,3140,Page Returning 404,404,NOT FOUND,Scenario 1 1-19,text,true,,393,317,13,13,http://192.168.1.10:5005/test,3140,0,3063
+1610139537847,115,Page Returning 404,404,NOT FOUND,Scenario 1 1-12,text,true,,393,317,13,13,http://192.168.1.10:5005/test,115,0,65
+1610139537855,153,Page Returning 404,404,NOT FOUND,Scenario 1 1-16,text,true,,393,317,12,12,http://192.168.1.10:5005/test,153,0,58
+1610139537861,147,dashboard,200,OK,Scenario 1 1-17,text,true,,12429,322,12,12,http://192.168.1.10:5005/dashboard,147,0,52
+1610139537862,157,dashboard,200,OK,Scenario 1 1-15,text,true,,12429,322,12,12,http://192.168.1.10:5005/dashboard,151,0,58
+1610139534891,3190,Home Page,200,OK,Scenario 1 1-21,text,true,,51151,313,12,12,http://192.168.1.10:5005/,3031,0,2966
+1610139537850,296,Home Page,200,OK,Scenario 1 1-22,text,true,,51151,313,12,12,http://192.168.1.10:5005/,112,0,63
+1610139537854,328,Home Page,200,OK,Scenario 1 1-23,text,true,,51151,313,12,12,http://192.168.1.10:5005/,110,0,59
+1610139537859,344,Home Page,200,OK,Scenario 1 1-13,text,true,,51151,313,12,12,http://192.168.1.10:5005/,138,0,54
+1610139538082,172,dashboard,200,OK,Scenario 1 1-21,text,true,,12429,322,12,12,http://192.168.1.10:5005/dashboard,157,0,63
+1610139537892,369,Home Page,200,OK,Scenario 1 1-24,text,true,,51151,313,12,12,http://192.168.1.10:5005/,116,0,43
+1610139537936,377,Home Page,200,OK,Scenario 1 1-19,text,true,,51151,313,12,12,http://192.168.1.10:5005/,118,0,60
+1610139538146,167,dashboard,200,OK,Scenario 1 1-22,text,true,,12429,322,12,12,http://192.168.1.10:5005/dashboard,167,0,81
+1610139537935,387,Home Page,200,OK,Scenario 1 1-14,text,true,,51151,313,12,12,http://192.168.1.10:5005/,115,0,61
+1610139538183,148,dashboard,200,OK,Scenario 1 1-23,text,true,,12429,322,12,12,http://192.168.1.10:5005/dashboard,143,0,78
+1610139538204,161,dashboard,200,OK,Scenario 1 1-13,text,true,,12429,322,12,12,http://192.168.1.10:5005/dashboard,161,0,73
+1610139538255,1302,Buat Instance,200,OK,Scenario 1 1-21,text,true,,15626,321,12,12,http://192.168.1.10:5005/buatbaru,1301,0,69
+1610139538314,1243,Buat Instance,200,OK,Scenario 1 1-22,text,true,,15626,321,12,12,http://192.168.1.10:5005/buatbaru,1242,0,66
+1610139538314,1244,dashboard,200,OK,Scenario 1 1-19,text,true,,12429,322,12,12,http://192.168.1.10:5005/dashboard,1244,0,67
+1610139538009,1551,Home Page,200,OK,Scenario 1 1-16,text,true,,51151,313,12,12,http://192.168.1.10:5005/,196,0,86
+1610139538009,1551,Buat Instance,200,OK,Scenario 1 1-17,text,true,,15626,321,12,12,http://192.168.1.10:5005/buatbaru,1551,0,85
+1610139538262,1300,dashboard,200,OK,Scenario 1 1-24,text,true,,12429,322,12,12,http://192.168.1.10:5005/dashboard,1300,0,62
+1610139538020,1542,Buat Instance,200,OK,Scenario 1 1-15,text,true,,15626,321,12,12,http://192.168.1.10:5005/buatbaru,1542,0,75
+1610139538366,2896,Buat Instance,200,OK,Scenario 1 1-13,text,true,,15626,321,13,13,http://192.168.1.10:5005/buatbaru,2896,0,1193
+1610139538323,2941,dashboard,200,OK,Scenario 1 1-14,text,true,,12429,322,13,13,http://192.168.1.10:5005/dashboard,2941,0,1240
+1610139538332,2933,Buat Instance,200,OK,Scenario 1 1-23,text,true,,15626,321,13,13,http://192.168.1.10:5005/buatbaru,2932,0,1230
+1610139539553,1790,Page Returning 404,404,NOT FOUND,Scenario 1 1-20,text,true,,393,317,15,15,http://192.168.1.10:5005/test,1789,0,398
+1610139539554,1789,Page Returning 404,404,NOT FOUND,Scenario 1 1-18,text,true,,393,317,15,15,http://192.168.1.10:5005/test,1789,0,397
+1610139541262,85,Page Returning 404,404,NOT FOUND,Scenario 1 1-17,text,true,,393,317,15,15,http://192.168.1.10:5005/test,85,0,44
+1610139541262,85,Page Returning 404,404,NOT FOUND,Scenario 1 1-21,text,true,,393,317,15,15,http://192.168.1.10:5005/test,85,0,44
+1610139541263,85,Page Returning 404,404,NOT FOUND,Scenario 1 1-15,text,true,,393,317,15,15,http://192.168.1.10:5005/test,84,0,44
+1610139539561,1787,dashboard,200,OK,Scenario 1 1-16,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,1785,0,390
+1610139541264,126,Page Returning 404,404,NOT FOUND,Scenario 1 1-22,text,true,,393,317,15,15,http://192.168.1.10:5005/test,126,0,43
+1610139539566,1960,Home Page,200,OK,Scenario 1 1-25,text,true,,51151,313,15,15,http://192.168.1.10:5005/,1776,0,385
+1610139541269,432,Home Page,200,OK,Scenario 1 1-26,text,true,,51151,313,15,15,http://192.168.1.10:5005/,121,0,38
+1610139541268,477,Home Page,200,OK,Scenario 1 1-27,text,true,,51151,313,15,15,http://192.168.1.10:5005/,125,0,39
+1610139541526,247,dashboard,200,OK,Scenario 1 1-25,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,247,0,128
+1610139539559,2244,Buat Instance,200,OK,Scenario 1 1-19,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,2115,0,392
+1610139541344,459,Home Page,200,OK,Scenario 1 1-18,text,true,,51151,313,15,15,http://192.168.1.10:5005/,107,0,17
+1610139541343,460,Home Page,200,OK,Scenario 1 1-20,text,true,,51151,313,15,15,http://192.168.1.10:5005/,108,0,18
+1610139539563,2240,Buat Instance,200,OK,Scenario 1 1-24,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,2147,0,388
+1610139541265,545,Buat Instance,200,OK,Scenario 1 1-14,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,493,0,42
+1610139541348,472,Buat Instance,200,OK,Scenario 1 1-16,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,425,0,50
+1610139541348,472,Home Page,200,OK,Scenario 1 1-15,text,true,,51151,313,15,15,http://192.168.1.10:5005/,200,0,50
+1610139541348,473,Home Page,200,OK,Scenario 1 1-21,text,true,,51151,313,15,15,http://192.168.1.10:5005/,200,0,51
+1610139541348,473,Home Page,200,OK,Scenario 1 1-17,text,true,,51151,313,15,15,http://192.168.1.10:5005/,175,0,51
+1610139541702,146,dashboard,200,OK,Scenario 1 1-26,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,125,0,101
+1610139541391,458,Home Page,200,OK,Scenario 1 1-22,text,true,,51151,313,15,15,http://192.168.1.10:5005/,229,0,106
+1610139541746,139,dashboard,200,OK,Scenario 1 1-27,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,136,0,57
+1610139541803,106,dashboard,200,OK,Scenario 1 1-18,text,true,,12429,322,16,16,http://192.168.1.10:5005/dashboard,104,0,46
+1610139541803,136,dashboard,200,OK,Scenario 1 1-20,text,true,,12429,322,16,16,http://192.168.1.10:5005/dashboard,136,0,46
+1610139541850,99,dashboard,200,OK,Scenario 1 1-22,text,true,,12429,322,16,16,http://192.168.1.10:5005/dashboard,98,0,39
+1610139541821,128,dashboard,200,OK,Scenario 1 1-15,text,true,,12429,322,16,16,http://192.168.1.10:5005/dashboard,120,0,67
+1610139541822,150,dashboard,200,OK,Scenario 1 1-17,text,true,,12429,322,16,16,http://192.168.1.10:5005/dashboard,128,0,66
+1610139541821,168,dashboard,200,OK,Scenario 1 1-21,text,true,,12429,322,16,16,http://192.168.1.10:5005/dashboard,164,0,67
+1610139541891,416,Home Page,200,OK,Scenario 1 1-28,text,true,,51151,313,16,16,http://192.168.1.10:5005/,118,0,48
+1610139541778,570,Buat Instance,200,OK,Scenario 1 1-25,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,474,0,42
+1610139541849,678,Buat Instance,200,OK,Scenario 1 1-26,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,582,0,40
+1610139542289,254,Page Returning 404,404,NOT FOUND,Scenario 1 1-13,text,true,,393,317,16,16,http://192.168.1.10:5005/test,254,0,130
+1610139541973,760,Buat Instance,200,OK,Scenario 1 1-17,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,643,0,64
+1610139541950,856,Buat Instance,200,OK,Scenario 1 1-22,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,764,0,87
+1610139541940,877,Buat Instance,200,OK,Scenario 1 1-20,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,810,0,56
+1610139541990,827,Buat Instance,200,OK,Scenario 1 1-21,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,745,0,100
+1610139541910,1004,Buat Instance,200,OK,Scenario 1 1-18,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,885,0,62
+1610139541950,964,Buat Instance,200,OK,Scenario 1 1-15,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,812,0,80
+1610139541886,1031,Buat Instance,200,OK,Scenario 1 1-27,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,569,0,53
+1610139542818,135,Page Returning 404,404,NOT FOUND,Scenario 1 1-14,text,true,,393,317,16,16,http://192.168.1.10:5005/test,135,0,96
+1610139542879,161,Page Returning 404,404,NOT FOUND,Scenario 1 1-16,text,true,,393,317,15,15,http://192.168.1.10:5005/test,161,0,65
+1610139542895,145,Page Returning 404,404,NOT FOUND,Scenario 1 1-24,text,true,,393,317,15,15,http://192.168.1.10:5005/test,145,0,50
+1610139542889,151,Page Returning 404,404,NOT FOUND,Scenario 1 1-19,text,true,,393,317,15,15,http://192.168.1.10:5005/test,151,0,55
+1610139542317,804,Page Returning 404,404,NOT FOUND,Scenario 1 1-23,text,true,,393,317,15,15,http://192.168.1.10:5005/test,803,0,113
+1610139542890,372,Home Page,200,OK,Scenario 1 1-29,text,true,,51151,313,15,15,http://192.168.1.10:5005/,150,0,54
+1610139543041,477,Home Page,200,OK,Scenario 1 1-24,text,true,,51151,313,15,15,http://192.168.1.10:5005/,145,0,89
+1610139543041,477,Home Page,200,OK,Scenario 1 1-16,text,true,,51151,313,15,15,http://192.168.1.10:5005/,161,0,89
+1610139543041,477,Home Page,200,OK,Scenario 1 1-19,text,true,,51151,313,15,15,http://192.168.1.10:5005/,181,0,89
+1610139543263,270,dashboard,200,OK,Scenario 1 1-29,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,257,0,117
+1610139542308,1297,dashboard,200,OK,Scenario 1 1-28,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,973,0,111
+1610139543416,212,Page Returning 404,404,NOT FOUND,Scenario 1 1-25,text,true,,393,317,15,15,http://192.168.1.10:5005/test,212,0,104
+1610139543122,529,Home Page,200,OK,Scenario 1 1-23,text,true,,51151,313,15,15,http://192.168.1.10:5005/,118,0,57
+1610139543519,220,dashboard,200,OK,Scenario 1 1-19,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,219,0,107
+1610139543519,220,dashboard,200,OK,Scenario 1 1-24,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,218,0,107
+1610139543551,190,Page Returning 404,404,NOT FOUND,Scenario 1 1-26,text,true,,393,317,15,15,http://192.168.1.10:5005/test,190,0,80
+1610139543519,225,dashboard,200,OK,Scenario 1 1-16,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,225,0,107
+1610139543652,133,dashboard,200,OK,Scenario 1 1-23,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,130,0,51
+1610139543750,156,Page Returning 404,404,NOT FOUND,Scenario 1 1-17,text,true,,393,317,16,16,http://192.168.1.10:5005/test,156,0,82
+1610139543629,290,Home Page,200,OK,Scenario 1 1-25,text,true,,51151,313,16,16,http://192.168.1.10:5005/,153,0,69
+1610139543856,117,Page Returning 404,404,NOT FOUND,Scenario 1 1-22,text,true,,393,317,16,16,http://192.168.1.10:5005/test,117,0,50
+1610139543846,127,Page Returning 404,404,NOT FOUND,Scenario 1 1-21,text,true,,393,317,16,16,http://192.168.1.10:5005/test,127,0,60
+1610139543894,86,Page Returning 404,404,NOT FOUND,Scenario 1 1-20,text,true,,393,317,16,16,http://192.168.1.10:5005/test,85,0,34
+1610139543534,471,Buat Instance,200,OK,Scenario 1 1-29,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,420,0,92
+1610139543920,126,dashboard,200,OK,Scenario 1 1-25,text,true,,12429,322,16,16,http://192.168.1.10:5005/dashboard,125,0,42
+1610139543742,310,Home Page,200,OK,Scenario 1 1-26,text,true,,51151,313,16,16,http://192.168.1.10:5005/,160,0,90
+1610139543954,102,Page Returning 404,404,NOT FOUND,Scenario 1 1-15,text,true,,393,317,16,16,http://192.168.1.10:5005/test,102,0,51
+1610139543954,103,Page Returning 404,404,NOT FOUND,Scenario 1 1-27,text,true,,393,317,15,15,http://192.168.1.10:5005/test,103,0,51
+1610139544009,132,Page Returning 404,404,NOT FOUND,Scenario 1 1-18,text,true,,393,317,15,15,http://192.168.1.10:5005/test,132,0,44
+1610139543606,589,Buat Instance,200,OK,Scenario 1 1-28,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,499,0,91
+1610139543891,352,Home Page,200,OK,Scenario 1 1-30,text,true,,51151,313,15,15,http://192.168.1.10:5005/,91,0,37
+1610139544053,392,dashboard,200,OK,Scenario 1 1-26,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,221,0,58
+1610139543740,775,Buat Instance,200,OK,Scenario 1 1-19,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,642,0,92
+1610139543980,539,Home Page,200,OK,Scenario 1 1-20,text,true,,51151,313,15,15,http://192.168.1.10:5005/,133,0,66
+1610139544244,280,dashboard,200,OK,Scenario 1 1-30,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,279,0,142
+1610139543740,788,Buat Instance,200,OK,Scenario 1 1-24,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,653,0,92
+1610139543786,787,Buat Instance,200,OK,Scenario 1 1-23,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,659,0,56
+1610139543745,828,Buat Instance,200,OK,Scenario 1 1-16,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,712,0,87
+1610139543974,600,Home Page,200,OK,Scenario 1 1-22,text,true,,51151,313,15,15,http://192.168.1.10:5005/,128,0,44
+1610139543974,603,Home Page,200,OK,Scenario 1 1-21,text,true,,51151,313,15,15,http://192.168.1.10:5005/,124,0,44
+1610139544047,603,Buat Instance,200,OK,Scenario 1 1-25,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,501,0,61
+1610139544058,635,Home Page,200,OK,Scenario 1 1-27,text,true,,51151,313,15,15,http://192.168.1.10:5005/,260,0,70
+1610139543907,798,Home Page,200,OK,Scenario 1 1-17,text,true,,51151,313,15,15,http://192.168.1.10:5005/,113,0,55
+1610139544142,600,Home Page,200,OK,Scenario 1 1-18,text,true,,51151,313,15,15,http://192.168.1.10:5005/,270,0,107
+1610139544519,239,dashboard,200,OK,Scenario 1 1-20,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,237,0,100
+1610139544575,203,dashboard,200,OK,Scenario 1 1-22,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,202,0,101
+1610139544577,217,dashboard,200,OK,Scenario 1 1-21,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,216,0,116
+1610139544694,173,dashboard,200,OK,Scenario 1 1-27,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,171,0,73
+1610139544705,170,dashboard,200,OK,Scenario 1 1-17,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,170,0,76
+1610139544743,179,dashboard,200,OK,Scenario 1 1-18,text,true,,12429,322,16,16,http://192.168.1.10:5005/dashboard,159,0,87
+1610139544446,687,Buat Instance,200,OK,Scenario 1 1-26,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,587,0,127
+1610139544525,735,Buat Instance,200,OK,Scenario 1 1-30,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,633,0,126
+1610139545055,230,Page Returning 404,404,NOT FOUND,Scenario 1 1-29,text,true,,393,317,16,16,http://192.168.1.10:5005/test,230,0,113
+1610139544780,534,Buat Instance,200,OK,Scenario 1 1-22,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,463,0,83
+1610139544892,514,Home Page,200,OK,Scenario 1 1-31,text,true,,51151,313,16,16,http://192.168.1.10:5005/,232,0,91
+1610139545213,196,Page Returning 404,404,NOT FOUND,Scenario 1 1-28,text,true,,393,317,16,16,http://192.168.1.10:5005/test,196,0,76
+1610139544876,535,Buat Instance,200,OK,Scenario 1 1-17,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,438,0,98
+1610139544922,601,Buat Instance,200,OK,Scenario 1 1-18,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,471,0,96
+1610139544868,820,Buat Instance,200,OK,Scenario 1 1-27,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,653,0,101
+1610139545407,321,dashboard,200,OK,Scenario 1 1-31,text,true,,12429,322,16,16,http://192.168.1.10:5005/dashboard,321,0,133
+1610139544758,971,Buat Instance,200,OK,Scenario 1 1-20,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,784,0,95
+1610139544795,978,Buat Instance,200,OK,Scenario 1 1-21,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,790,0,80
+1610139545546,361,Page Returning 404,404,NOT FOUND,Scenario 1 1-24,text,true,,393,317,17,17,http://192.168.1.10:5005/test,361,0,182
+1610139545560,357,Page Returning 404,404,NOT FOUND,Scenario 1 1-19,text,true,,393,317,17,17,http://192.168.1.10:5005/test,357,0,189
+1610139545592,339,Page Returning 404,404,NOT FOUND,Scenario 1 1-16,text,true,,393,317,17,17,http://192.168.1.10:5005/test,338,0,186
+1610139545647,314,Page Returning 404,404,NOT FOUND,Scenario 1 1-23,text,true,,393,317,16,16,http://192.168.1.10:5005/test,314,0,196
+1610139545286,742,Home Page,200,OK,Scenario 1 1-29,text,true,,51151,313,16,16,http://192.168.1.10:5005/,265,0,120
+1610139545743,294,Page Returning 404,404,NOT FOUND,Scenario 1 1-25,text,true,,393,317,16,16,http://192.168.1.10:5005/test,294,0,164
+1610139545410,733,Home Page,200,OK,Scenario 1 1-28,text,true,,51151,313,16,16,http://192.168.1.10:5005/,319,0,135
+1610139546028,324,dashboard,200,OK,Scenario 1 1-29,text,true,,12429,322,16,16,http://192.168.1.10:5005/dashboard,319,0,134
+1610139545729,665,Buat Instance,200,OK,Scenario 1 1-31,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,502,0,174
+1610139546144,328,dashboard,200,OK,Scenario 1 1-28,text,true,,12429,322,16,16,http://192.168.1.10:5005/dashboard,319,0,146
+1610139546153,360,Page Returning 404,404,NOT FOUND,Scenario 1 1-26,text,true,,393,317,16,16,http://192.168.1.10:5005/test,360,0,178
+1610139546290,351,Page Returning 404,404,NOT FOUND,Scenario 1 1-30,text,true,,393,317,16,16,http://192.168.1.10:5005/test,351,0,172
+1610139545918,733,Home Page,200,OK,Scenario 1 1-19,text,true,,51151,313,16,16,http://192.168.1.10:5005/,265,0,125
+1610139546334,319,Page Returning 404,404,NOT FOUND,Scenario 1 1-22,text,true,,393,317,16,16,http://192.168.1.10:5005/test,319,0,170
+1610139545908,748,Home Page,200,OK,Scenario 1 1-24,text,true,,51151,313,16,16,http://192.168.1.10:5005/,241,0,117
+1610139546464,400,Page Returning 404,404,NOT FOUND,Scenario 1 1-17,text,true,,393,317,16,16,http://192.168.1.10:5005/test,400,0,175
+1610139546038,875,Home Page,200,OK,Scenario 1 1-25,text,true,,51151,313,16,16,http://192.168.1.10:5005/,297,0,139
+1610139546585,466,Page Returning 404,404,NOT FOUND,Scenario 1 1-18,text,true,,393,317,16,16,http://192.168.1.10:5005/test,466,0,227
+1610139546652,496,dashboard,200,OK,Scenario 1 1-19,text,true,,12429,322,16,16,http://192.168.1.10:5005/dashboard,494,0,230
+1610139546352,837,Buat Instance,200,OK,Scenario 1 1-29,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,605,0,163
+1610139546769,468,Page Returning 404,404,NOT FOUND,Scenario 1 1-27,text,true,,393,317,16,16,http://192.168.1.10:5005/test,468,0,206
+1610139546472,793,Buat Instance,200,OK,Scenario 1 1-28,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,588,0,167
+1610139546828,437,Page Returning 404,404,NOT FOUND,Scenario 1 1-20,text,true,,393,317,16,16,http://192.168.1.10:5005/test,437,0,225
+1610139546837,428,Page Returning 404,404,NOT FOUND,Scenario 1 1-21,text,true,,393,317,16,16,http://192.168.1.10:5005/test,428,0,216
+1610139545962,1320,Home Page,200,OK,Scenario 1 1-23,text,true,,51151,313,16,16,http://192.168.1.10:5005/,266,0,130
+1610139546657,694,dashboard,200,OK,Scenario 1 1-24,text,true,,12429,322,16,16,http://192.168.1.10:5005/dashboard,496,0,256
+1610139546914,447,dashboard,200,OK,Scenario 1 1-25,text,true,,12429,322,16,16,http://192.168.1.10:5005/dashboard,447,0,229
+1610139546514,1004,Home Page,200,OK,Scenario 1 1-26,text,true,,51151,313,16,16,http://192.168.1.10:5005/,409,0,158
+1610139547286,341,dashboard,200,OK,Scenario 1 1-23,text,true,,12429,322,16,16,http://192.168.1.10:5005/dashboard,336,0,155
+1610139545894,1758,Home Page,200,OK,Scenario 1 1-32,text,true,,51151,313,16,16,http://192.168.1.10:5005/,246,0,112
+1610139546654,1019,Home Page,200,OK,Scenario 1 1-22,text,true,,51151,313,16,16,http://192.168.1.10:5005/,495,0,259
+1610139547407,397,Page Returning 404,404,NOT FOUND,Scenario 1 1-31,text,true,,393,317,16,16,http://192.168.1.10:5005/test,397,0,174
+1610139546892,1011,Home Page,200,OK,Scenario 1 1-33,text,true,,51151,313,17,17,http://192.168.1.10:5005/,458,0,242
+1610139547519,384,dashboard,200,OK,Scenario 1 1-26,text,true,,12429,322,17,17,http://192.168.1.10:5005/dashboard,384,0,179
+1610139547149,854,Buat Instance,200,OK,Scenario 1 1-19,text,true,,15626,321,17,17,http://192.168.1.10:5005/buatbaru,644,0,203
+1610139547652,487,dashboard,200,OK,Scenario 1 1-32,text,true,,12429,322,17,17,http://192.168.1.10:5005/dashboard,487,0,200
+1610139547674,510,dashboard,200,OK,Scenario 1 1-22,text,true,,12429,322,17,17,http://192.168.1.10:5005/dashboard,509,0,228
+1610139547352,922,Buat Instance,200,OK,Scenario 1 1-24,text,true,,15626,321,17,17,http://192.168.1.10:5005/buatbaru,651,0,170
+1610139547362,955,Buat Instance,200,OK,Scenario 1 1-25,text,true,,15626,321,17,17,http://192.168.1.10:5005/buatbaru,706,0,160
+1610139547266,1051,Home Page,200,OK,Scenario 1 1-20,text,true,,51151,313,17,17,http://192.168.1.10:5005/,356,0,175
+1610139547266,1051,Home Page,200,OK,Scenario 1 1-21,text,true,,51151,313,17,17,http://192.168.1.10:5005/,374,0,175
+1610139547238,1180,Home Page,200,OK,Scenario 1 1-27,text,true,,51151,313,17,17,http://192.168.1.10:5005/,344,0,178
+1610139547628,812,Buat Instance,200,OK,Scenario 1 1-23,text,true,,15626,321,17,17,http://192.168.1.10:5005/buatbaru,679,0,202
+1610139547052,1402,Home Page,200,OK,Scenario 1 1-18,text,true,,51151,313,17,17,http://192.168.1.10:5005/,564,0,212
+1610139548203,336,Page Returning 404,404,NOT FOUND,Scenario 1 1-29,text,true,,393,317,17,17,http://192.168.1.10:5005/test,336,0,211
+1610139546642,1943,Home Page,200,OK,Scenario 1 1-30,text,true,,51151,313,17,17,http://192.168.1.10:5005/,1446,0,1203
+1610139548318,275,dashboard,200,OK,Scenario 1 1-20,text,true,,12429,322,17,17,http://192.168.1.10:5005/dashboard,274,0,136
+1610139547904,694,Buat Instance,200,OK,Scenario 1 1-26,text,true,,15626,321,17,17,http://192.168.1.10:5005/buatbaru,593,0,276
+1610139548318,281,dashboard,200,OK,Scenario 1 1-21,text,true,,12429,322,17,17,http://192.168.1.10:5005/dashboard,279,0,136
+1610139548345,256,Page Returning 404,404,NOT FOUND,Scenario 1 1-28,text,true,,393,317,17,17,http://192.168.1.10:5005/test,255,0,114
+1610139547806,860,Home Page,200,OK,Scenario 1 1-31,text,true,,51151,313,17,17,http://192.168.1.10:5005/,501,0,227
+1610139548419,252,dashboard,200,OK,Scenario 1 1-27,text,true,,12429,322,17,17,http://192.168.1.10:5005/dashboard,249,0,117
+1610139547904,1020,dashboard,200,OK,Scenario 1 1-33,text,true,,12429,322,18,18,http://192.168.1.10:5005/dashboard,667,0,275
+1610139547892,1032,Home Page,200,OK,Scenario 1 1-34,text,true,,51151,313,18,18,http://192.168.1.10:5005/,466,0,247
+1610139548586,338,dashboard,200,OK,Scenario 1 1-30,text,true,,12429,322,18,18,http://192.168.1.10:5005/dashboard,338,0,111
+1610139548140,826,Buat Instance,200,OK,Scenario 1 1-32,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,624,0,217
+1610139548185,818,Buat Instance,200,OK,Scenario 1 1-22,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,618,0,229
+1610139548666,354,dashboard,200,OK,Scenario 1 1-31,text,true,,12429,322,18,18,http://192.168.1.10:5005/dashboard,351,0,154
+1610139548925,505,dashboard,200,OK,Scenario 1 1-34,text,true,,12429,322,18,18,http://192.168.1.10:5005/dashboard,499,0,177
+1610139549040,489,Page Returning 404,404,NOT FOUND,Scenario 1 1-19,text,true,,393,317,18,18,http://192.168.1.10:5005/test,488,0,237
+1610139548594,1101,Buat Instance,200,OK,Scenario 1 1-20,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,818,0,153
+1610139548600,1114,Buat Instance,200,OK,Scenario 1 1-21,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,861,0,148
+1610139548672,1044,Buat Instance,200,OK,Scenario 1 1-27,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,811,0,149
+1610139548602,1114,Home Page,200,OK,Scenario 1 1-28,text,true,,51151,313,18,18,http://192.168.1.10:5005/,385,0,146
+1610139549303,499,Page Returning 404,404,NOT FOUND,Scenario 1 1-24,text,true,,393,317,18,18,http://192.168.1.10:5005/test,499,0,262
+1610139549346,483,Page Returning 404,404,NOT FOUND,Scenario 1 1-25,text,true,,393,317,18,18,http://192.168.1.10:5005/test,482,0,256
+1610139548925,975,Buat Instance,200,OK,Scenario 1 1-33,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,771,0,176
+1610139548925,999,Buat Instance,200,OK,Scenario 1 1-30,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,785,0,176
+1610139549021,904,Buat Instance,200,OK,Scenario 1 1-31,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,696,0,257
+1610139549498,430,Page Returning 404,404,NOT FOUND,Scenario 1 1-23,text,true,,393,317,19,19,http://192.168.1.10:5005/test,430,0,232
+1610139548455,1528,dashboard,200,OK,Scenario 1 1-18,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,248,0,129
+1610139548894,1140,Home Page,200,OK,Scenario 1 1-35,text,true,,51151,313,19,19,http://192.168.1.10:5005/,441,0,174
+1610139549629,455,Page Returning 404,404,NOT FOUND,Scenario 1 1-26,text,true,,393,317,19,19,http://192.168.1.10:5005/test,455,0,212
+1610139548540,1720,Home Page,200,OK,Scenario 1 1-29,text,true,,51151,313,19,19,http://192.168.1.10:5005/,561,0,125
+1610139549717,674,dashboard,200,OK,Scenario 1 1-28,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,477,0,208
+1610139549431,968,Buat Instance,200,OK,Scenario 1 1-34,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,782,0,264
+1610139550035,438,dashboard,200,OK,Scenario 1 1-35,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,420,0,224
+1610139550053,421,Page Returning 404,404,NOT FOUND,Scenario 1 1-32,text,true,,393,317,19,19,http://192.168.1.10:5005/test,420,0,233
+1610139550084,402,Page Returning 404,404,NOT FOUND,Scenario 1 1-22,text,true,,393,317,19,19,http://192.168.1.10:5005/test,402,0,233
+1610139550260,410,dashboard,200,OK,Scenario 1 1-29,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,409,0,192
+1610139549984,861,Buat Instance,200,OK,Scenario 1 1-18,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,613,0,239
+1610139549803,1048,Home Page,200,OK,Scenario 1 1-24,text,true,,51151,313,19,19,http://192.168.1.10:5005/,451,0,229
+1610139549530,1416,Home Page,200,OK,Scenario 1 1-19,text,true,,51151,313,20,20,http://192.168.1.10:5005/,501,0,220
+1610139549929,1082,Home Page,200,OK,Scenario 1 1-23,text,true,,51151,313,20,20,http://192.168.1.10:5005/,425,0,235
+1610139550713,433,Page Returning 404,404,NOT FOUND,Scenario 1 1-20,text,true,,393,317,20,20,http://192.168.1.10:5005/test,432,0,233
+1610139550743,413,Page Returning 404,404,NOT FOUND,Scenario 1 1-27,text,true,,393,317,20,20,http://192.168.1.10:5005/test,413,0,222
+1610139549893,1283,Home Page,200,OK,Scenario 1 1-36,text,true,,51151,313,20,20,http://192.168.1.10:5005/,453,0,257
+1610139550391,793,Buat Instance,200,OK,Scenario 1 1-28,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,617,0,202
+1610139550851,393,dashboard,200,OK,Scenario 1 1-24,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,393,0,191
+1610139550909,414,Page Returning 404,404,NOT FOUND,Scenario 1 1-33,text,true,,393,317,20,20,http://192.168.1.10:5005/test,414,0,175
+1610139550085,1289,Home Page,200,OK,Scenario 1 1-26,text,true,,51151,313,20,20,http://192.168.1.10:5005/,401,0,232
+1610139550944,432,Page Returning 404,404,NOT FOUND,Scenario 1 1-31,text,true,,393,317,20,20,http://192.168.1.10:5005/test,432,0,201
+1610139550947,444,dashboard,200,OK,Scenario 1 1-19,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,440,0,198
+1610139550980,443,Page Returning 404,404,NOT FOUND,Scenario 1 1-30,text,true,,393,317,20,20,http://192.168.1.10:5005/test,443,0,176
+1610139551012,438,dashboard,200,OK,Scenario 1 1-23,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,438,0,173
+1610139550474,1040,Buat Instance,200,OK,Scenario 1 1-35,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,834,0,247
+1610139550671,852,Buat Instance,200,OK,Scenario 1 1-29,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,663,0,230
+1610139550487,1079,Home Page,200,OK,Scenario 1 1-22,text,true,,51151,313,20,20,http://192.168.1.10:5005/,464,0,234
+1610139551177,467,dashboard,200,OK,Scenario 1 1-36,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,464,0,237
+1610139550892,1031,Home Page,200,OK,Scenario 1 1-37,text,true,,51151,313,21,21,http://192.168.1.10:5005/,434,0,189
+1610139551497,427,Page Returning 404,404,NOT FOUND,Scenario 1 1-34,text,true,,393,317,21,21,http://192.168.1.10:5005/test,426,0,224
+1610139550474,1529,Home Page,200,OK,Scenario 1 1-32,text,true,,51151,313,21,21,http://192.168.1.10:5005/,671,0,247
+1610139551567,449,dashboard,200,OK,Scenario 1 1-22,text,true,,12429,322,21,21,http://192.168.1.10:5005/dashboard,444,0,251
+1610139551245,835,Buat Instance,200,OK,Scenario 1 1-24,text,true,,15626,321,21,21,http://192.168.1.10:5005/buatbaru,629,0,229
+1610139551157,1075,Home Page,200,OK,Scenario 1 1-27,text,true,,51151,313,21,21,http://192.168.1.10:5005/,482,0,257
+1610139549830,2406,Home Page,200,OK,Scenario 1 1-25,text,true,,51151,313,21,21,http://192.168.1.10:5005/,460,0,224
+1610139551324,944,Home Page,200,OK,Scenario 1 1-33,text,true,,51151,313,21,21,http://192.168.1.10:5005/,417,0,197
+1610139550776,1529,Page Returning 404,404,NOT FOUND,Scenario 1 1-21,text,true,,393,317,21,21,http://192.168.1.10:5005/test,1529,0,222
+1610139551924,381,dashboard,200,OK,Scenario 1 1-37,text,true,,12429,322,21,21,http://192.168.1.10:5005/dashboard,380,0,176
+1610139551450,892,Buat Instance,200,OK,Scenario 1 1-23,text,true,,15626,321,21,21,http://192.168.1.10:5005/buatbaru,707,0,195
+1610139551940,402,Page Returning 404,404,NOT FOUND,Scenario 1 1-18,text,true,,393,317,21,21,http://192.168.1.10:5005/test,402,0,222
+1610139551645,756,Buat Instance,200,OK,Scenario 1 1-36,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,591,0,193
+1610139551424,977,Home Page,200,OK,Scenario 1 1-30,text,true,,51151,313,20,20,http://192.168.1.10:5005/,422,0,220
+1610139552003,400,dashboard,200,OK,Scenario 1 1-32,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,395,0,227
+1610139552232,357,dashboard,200,OK,Scenario 1 1-27,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,357,0,156
+1610139552237,418,dashboard,200,OK,Scenario 1 1-25,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,416,0,164
+1610139552276,428,Page Returning 404,404,NOT FOUND,Scenario 1 1-28,text,true,,393,317,20,20,http://192.168.1.10:5005/test,428,0,186
+1610139552269,445,dashboard,200,OK,Scenario 1 1-33,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,442,0,193
+1610139551374,1433,dashboard,200,OK,Scenario 1 1-26,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,1431,0,1191
+1610139551147,1649,Home Page,200,OK,Scenario 1 1-20,text,true,,51151,313,20,20,http://192.168.1.10:5005/,425,0,227
+1610139552017,862,Buat Instance,200,OK,Scenario 1 1-22,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,638,0,214
+1610139552402,482,dashboard,200,OK,Scenario 1 1-30,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,477,0,250
+1610139551391,1588,Buat Instance,200,OK,Scenario 1 1-19,text,true,,15626,321,21,21,http://192.168.1.10:5005/buatbaru,720,0,243
+1610139551924,1055,Home Page,200,OK,Scenario 1 1-34,text,true,,51151,313,21,21,http://192.168.1.10:5005/,383,0,176
+1610139551891,1089,Home Page,200,OK,Scenario 1 1-38,text,true,,51151,313,21,21,http://192.168.1.10:5005/,413,0,191
+1610139552574,451,Page Returning 404,404,NOT FOUND,Scenario 1 1-35,text,true,,393,317,21,21,http://192.168.1.10:5005/test,451,0,232
+1610139552620,451,Page Returning 404,404,NOT FOUND,Scenario 1 1-29,text,true,,393,317,21,21,http://192.168.1.10:5005/test,451,0,233
+1610139552305,907,Buat Instance,200,OK,Scenario 1 1-37,text,true,,15626,321,21,21,http://192.168.1.10:5005/buatbaru,675,0,185
+1610139552810,445,dashboard,200,OK,Scenario 1 1-20,text,true,,12429,322,21,21,http://192.168.1.10:5005/dashboard,445,0,215
+1610139552404,864,Buat Instance,200,OK,Scenario 1 1-32,text,true,,15626,321,21,21,http://192.168.1.10:5005/buatbaru,681,0,248
+1610139551377,2040,Home Page,200,OK,Scenario 1 1-31,text,true,,51151,313,21,21,http://192.168.1.10:5005/,1421,0,1188
+1610139552980,469,dashboard,200,OK,Scenario 1 1-34,text,true,,12429,322,21,21,http://192.168.1.10:5005/dashboard,454,0,229
+1610139552981,505,dashboard,200,OK,Scenario 1 1-38,text,true,,12429,322,21,21,http://192.168.1.10:5005/dashboard,477,0,228
+1610139552591,1026,Buat Instance,200,OK,Scenario 1 1-27,text,true,,15626,321,21,21,http://192.168.1.10:5005/buatbaru,800,0,262
+1610139552656,1024,Buat Instance,200,OK,Scenario 1 1-25,text,true,,15626,321,21,21,http://192.168.1.10:5005/buatbaru,747,0,223
+1610139553213,467,Page Returning 404,404,NOT FOUND,Scenario 1 1-24,text,true,,393,317,21,21,http://192.168.1.10:5005/test,467,0,201
+1610139552715,979,Buat Instance,200,OK,Scenario 1 1-33,text,true,,15626,321,21,21,http://192.168.1.10:5005/buatbaru,741,0,264
+1610139552810,961,Buat Instance,200,OK,Scenario 1 1-26,text,true,,15626,321,21,21,http://192.168.1.10:5005/buatbaru,700,0,215
+1610139552706,1108,Home Page,200,OK,Scenario 1 1-28,text,true,,51151,313,21,21,http://192.168.1.10:5005/,430,0,200
+1610139552305,1535,Home Page,200,OK,Scenario 1 1-21,text,true,,51151,313,21,21,http://192.168.1.10:5005/,463,0,185
+1610139553423,428,Page Returning 404,404,NOT FOUND,Scenario 1 1-23,text,true,,393,317,21,21,http://192.168.1.10:5005/test,427,0,268
+1610139553490,361,Page Returning 404,404,NOT FOUND,Scenario 1 1-36,text,true,,393,317,21,21,http://192.168.1.10:5005/test,361,0,237
+1610139552892,959,Home Page,200,OK,Scenario 1 1-39,text,true,,51151,313,21,21,http://192.168.1.10:5005/,384,0,198
+1610139553418,434,dashboard,200,OK,Scenario 1 1-31,text,true,,12429,322,21,21,http://192.168.1.10:5005/dashboard,423,0,267
+1610139553256,662,Buat Instance,200,OK,Scenario 1 1-20,text,true,,15626,321,22,22,http://192.168.1.10:5005/buatbaru,571,0,194
+1610139552885,1033,Buat Instance,200,OK,Scenario 1 1-30,text,true,,15626,321,22,22,http://192.168.1.10:5005/buatbaru,946,0,205
+1610139553026,892,Home Page,200,OK,Scenario 1 1-35,text,true,,51151,313,22,22,http://192.168.1.10:5005/,466,0,209
+1610139553072,846,Home Page,200,OK,Scenario 1 1-29,text,true,,51151,313,22,22,http://192.168.1.10:5005/,434,0,190
+1610139553815,201,dashboard,200,OK,Scenario 1 1-28,text,true,,12429,322,22,22,http://192.168.1.10:5005/dashboard,198,0,86
+1610139553841,175,dashboard,200,OK,Scenario 1 1-21,text,true,,12429,322,22,22,http://192.168.1.10:5005/dashboard,157,0,77
+1610139553851,220,dashboard,200,OK,Scenario 1 1-39,text,true,,12429,322,22,22,http://192.168.1.10:5005/dashboard,220,0,67
+1610139553450,637,Buat Instance,200,OK,Scenario 1 1-34,text,true,,15626,321,22,22,http://192.168.1.10:5005/buatbaru,544,0,242
+1610139553919,187,dashboard,200,OK,Scenario 1 1-35,text,true,,12429,322,22,22,http://192.168.1.10:5005/dashboard,183,0,74
+1610139553919,187,Page Returning 404,404,NOT FOUND,Scenario 1 1-22,text,true,,393,317,22,22,http://192.168.1.10:5005/test,187,0,74
+1610139553486,620,Buat Instance,200,OK,Scenario 1 1-38,text,true,,15626,321,22,22,http://192.168.1.10:5005/buatbaru,532,0,237
+1610139553919,190,dashboard,200,OK,Scenario 1 1-29,text,true,,12429,322,21,21,http://192.168.1.10:5005/dashboard,188,0,74
+1610139554012,187,Page Returning 404,404,NOT FOUND,Scenario 1 1-19,text,true,,393,317,21,21,http://192.168.1.10:5005/test,187,0,94
+1610139553852,553,Home Page,200,OK,Scenario 1 1-23,text,true,,51151,313,20,20,http://192.168.1.10:5005/,218,0,66
+1610139553892,598,Home Page,200,OK,Scenario 1 1-40,text,true,,51151,313,20,20,http://192.168.1.10:5005/,197,0,101
+1610139553851,671,Home Page,200,OK,Scenario 1 1-36,text,true,,51151,313,20,20,http://192.168.1.10:5005/,220,0,67
+1610139554254,270,Page Returning 404,404,NOT FOUND,Scenario 1 1-37,text,true,,393,317,20,20,http://192.168.1.10:5005/test,270,0,129
+1610139553681,862,Home Page,200,OK,Scenario 1 1-24,text,true,,51151,313,20,20,http://192.168.1.10:5005/,312,0,159
+1610139553852,749,Buat Instance,200,OK,Scenario 1 1-31,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,610,0,66
+1610139554321,312,Page Returning 404,404,NOT FOUND,Scenario 1 1-32,text,true,,393,317,20,20,http://192.168.1.10:5005/test,311,0,180
+1610139554017,635,Buat Instance,200,OK,Scenario 1 1-28,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,508,0,89
+1610139554405,278,dashboard,200,OK,Scenario 1 1-23,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,256,0,145
+1610139554491,237,dashboard,200,OK,Scenario 1 1-40,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,234,0,115
+1610139554110,624,Buat Instance,200,OK,Scenario 1 1-29,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,523,0,92
+1610139554523,269,dashboard,200,OK,Scenario 1 1-36,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,265,0,127
+1610139554544,257,dashboard,200,OK,Scenario 1 1-24,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,255,0,108
+1610139554624,221,Page Returning 404,404,NOT FOUND,Scenario 1 1-27,text,true,,393,317,20,20,http://192.168.1.10:5005/test,221,0,105
+1610139554072,902,Buat Instance,200,OK,Scenario 1 1-39,text,true,,15626,321,21,21,http://192.168.1.10:5005/buatbaru,736,0,99
+1610139554017,959,Buat Instance,200,OK,Scenario 1 1-21,text,true,,15626,321,21,21,http://192.168.1.10:5005/buatbaru,796,0,89
+1610139554106,870,Buat Instance,200,OK,Scenario 1 1-35,text,true,,15626,321,21,21,http://192.168.1.10:5005/buatbaru,711,0,96
+1610139554778,330,Page Returning 404,404,NOT FOUND,Scenario 1 1-25,text,true,,393,317,21,21,http://192.168.1.10:5005/test,329,0,148
+1610139554782,327,Page Returning 404,404,NOT FOUND,Scenario 1 1-33,text,true,,393,317,21,21,http://192.168.1.10:5005/test,326,0,144
+1610139554525,808,Home Page,200,OK,Scenario 1 1-37,text,true,,51151,313,21,21,http://192.168.1.10:5005/,222,0,127
+1610139554977,448,Page Returning 404,404,NOT FOUND,Scenario 1 1-20,text,true,,393,317,21,21,http://192.168.1.10:5005/test,448,0,229
+1610139554634,865,Home Page,200,OK,Scenario 1 1-32,text,true,,51151,313,20,20,http://192.168.1.10:5005/,211,0,102
+1610139554729,882,Buat Instance,200,OK,Scenario 1 1-40,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,656,0,108
+1610139554684,927,Buat Instance,200,OK,Scenario 1 1-23,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,698,0,108
+1610139554797,834,Buat Instance,200,OK,Scenario 1 1-36,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,620,0,172
+1610139555150,482,Page Returning 404,404,NOT FOUND,Scenario 1 1-34,text,true,,393,317,20,20,http://192.168.1.10:5005/test,482,0,256
+1610139555200,434,Page Returning 404,404,NOT FOUND,Scenario 1 1-38,text,true,,393,317,20,20,http://192.168.1.10:5005/test,434,0,216
+1610139554802,835,Buat Instance,200,OK,Scenario 1 1-24,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,640,0,172
+1610139555334,424,dashboard,200,OK,Scenario 1 1-37,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,422,0,224
+1610139554846,1044,Home Page,200,OK,Scenario 1 1-27,text,true,,51151,313,20,20,http://192.168.1.10:5005/,401,0,167
+1610139555500,443,dashboard,200,OK,Scenario 1 1-32,text,true,,12429,322,21,21,http://192.168.1.10:5005/dashboard,439,0,221
+1610139554789,1213,Page Returning 404,404,NOT FOUND,Scenario 1 1-26,text,true,,393,317,21,21,http://192.168.1.10:5005/test,1213,0,148
+1610139555675,507,Page Returning 404,404,NOT FOUND,Scenario 1 1-31,text,true,,393,317,21,21,http://192.168.1.10:5005/test,507,0,223
+1610139555687,532,Page Returning 404,404,NOT FOUND,Scenario 1 1-28,text,true,,393,317,21,21,http://192.168.1.10:5005/test,531,0,236
+1610139555110,1167,Home Page,200,OK,Scenario 1 1-33,text,true,,51151,313,21,21,http://192.168.1.10:5005/,450,0,231
+1610139555109,1243,Home Page,200,OK,Scenario 1 1-25,text,true,,51151,313,21,21,http://192.168.1.10:5005/,461,0,232
+1610139555785,573,Page Returning 404,404,NOT FOUND,Scenario 1 1-29,text,true,,393,317,21,21,http://192.168.1.10:5005/test,573,0,256
+1610139555891,581,dashboard,200,OK,Scenario 1 1-27,text,true,,12429,322,21,21,http://192.168.1.10:5005/dashboard,577,0,273
+1610139554941,1610,Page Returning 404,404,NOT FOUND,Scenario 1 1-30,text,true,,393,317,21,21,http://192.168.1.10:5005/test,1610,0,1325
+1610139556010,585,Page Returning 404,404,NOT FOUND,Scenario 1 1-35,text,true,,393,317,21,21,http://192.168.1.10:5005/test,585,0,342
+1610139556026,569,Page Returning 404,404,NOT FOUND,Scenario 1 1-21,text,true,,393,317,21,21,http://192.168.1.10:5005/test,569,0,326
+1610139556070,531,Page Returning 404,404,NOT FOUND,Scenario 1 1-39,text,true,,393,317,20,20,http://192.168.1.10:5005/test,531,0,301
+1610139555759,942,Buat Instance,200,OK,Scenario 1 1-37,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,713,0,236
+1610139556278,536,dashboard,200,OK,Scenario 1 1-33,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,516,0,275
+1610139556353,514,dashboard,200,OK,Scenario 1 1-25,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,508,0,239
+1610139555944,1011,Buat Instance,200,OK,Scenario 1 1-32,text,true,,15626,321,21,21,http://192.168.1.10:5005/buatbaru,741,0,320
+1610139555635,1320,Home Page,200,OK,Scenario 1 1-38,text,true,,51151,313,21,21,http://192.168.1.10:5005/,502,0,227
+1610139555633,1329,Home Page,200,OK,Scenario 1 1-34,text,true,,51151,313,21,21,http://192.168.1.10:5005/,501,0,229
+1610139556640,490,Page Returning 404,404,NOT FOUND,Scenario 1 1-40,text,true,,393,317,21,21,http://192.168.1.10:5005/test,490,0,238
+1610139556644,537,Page Returning 404,404,NOT FOUND,Scenario 1 1-36,text,true,,393,317,21,21,http://192.168.1.10:5005/test,537,0,260
+1610139556667,525,Page Returning 404,404,NOT FOUND,Scenario 1 1-23,text,true,,393,317,21,21,http://192.168.1.10:5005/test,524,0,238
+1610139556690,515,Page Returning 404,404,NOT FOUND,Scenario 1 1-24,text,true,,393,317,20,20,http://192.168.1.10:5005/test,515,0,265
+1610139556473,960,Buat Instance,200,OK,Scenario 1 1-27,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,719,0,228
+1610139556003,1432,Home Page,200,OK,Scenario 1 1-26,text,true,,51151,313,19,19,http://192.168.1.10:5005/,594,0,349
+1610139555892,1567,Home Page,200,OK,Scenario 1 1-42,text,true,,51151,313,19,19,http://192.168.1.10:5005/,580,0,285
+1610139556963,497,dashboard,200,OK,Scenario 1 1-34,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,497,0,242
+1610139556183,1283,Home Page,200,OK,Scenario 1 1-31,text,true,,51151,313,19,19,http://192.168.1.10:5005/,563,0,284
+1610139556219,1301,Home Page,200,OK,Scenario 1 1-28,text,true,,51151,313,19,19,http://192.168.1.10:5005/,527,0,284
+1610139556359,1194,Home Page,200,OK,Scenario 1 1-29,text,true,,51151,313,19,19,http://192.168.1.10:5005/,511,0,233
+1610139556956,625,dashboard,200,OK,Scenario 1 1-38,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,625,0,249
+1610139556867,792,Buat Instance,200,OK,Scenario 1 1-25,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,654,0,239
+1610139556602,1104,Home Page,200,OK,Scenario 1 1-39,text,true,,51151,313,19,19,http://192.168.1.10:5005/,505,0,260
+1610139556595,1122,Home Page,200,OK,Scenario 1 1-35,text,true,,51151,313,19,19,http://192.168.1.10:5005/,523,0,267
+1610139557435,335,dashboard,200,OK,Scenario 1 1-26,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,333,0,145
+1610139557460,338,dashboard,200,OK,Scenario 1 1-42,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,335,0,123
+1610139557467,337,dashboard,200,OK,Scenario 1 1-31,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,336,0,116
+1610139556552,1328,Home Page,200,OK,Scenario 1 1-30,text,true,,51151,313,19,19,http://192.168.1.10:5005/,464,0,226
+1610139554891,2998,Home Page,200,OK,Scenario 1 1-41,text,true,,51151,313,19,19,http://192.168.1.10:5005/,368,0,164
+1610139557520,372,dashboard,200,OK,Scenario 1 1-28,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,369,0,140
+1610139557554,382,dashboard,200,OK,Scenario 1 1-29,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,380,0,152
+1610139556893,1046,Home Page,200,OK,Scenario 1 1-43,text,true,,51151,313,20,20,http://192.168.1.10:5005/,541,0,264
+1610139557707,375,dashboard,200,OK,Scenario 1 1-39,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,374,0,226
+1610139557719,378,dashboard,200,OK,Scenario 1 1-35,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,377,0,220
+1610139557758,409,Page Returning 404,404,NOT FOUND,Scenario 1 1-37,text,true,,393,317,20,20,http://192.168.1.10:5005/test,409,0,235
+1610139557182,998,Home Page,200,OK,Scenario 1 1-36,text,true,,51151,313,20,20,http://192.168.1.10:5005/,400,0,252
+1610139557461,755,Buat Instance,200,OK,Scenario 1 1-34,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,601,0,120
+1610139557881,410,dashboard,200,OK,Scenario 1 1-30,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,404,0,198
+1610139557890,454,dashboard,200,OK,Scenario 1 1-41,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,453,0,189
+1610139557582,762,Buat Instance,200,OK,Scenario 1 1-38,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,586,0,202
+1610139557966,379,Page Returning 404,404,NOT FOUND,Scenario 1 1-32,text,true,,393,317,20,20,http://192.168.1.10:5005/test,379,0,153
+1610139557940,411,dashboard,200,OK,Scenario 1 1-43,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,410,0,147
+1610139558180,373,dashboard,200,OK,Scenario 1 1-36,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,371,0,184
+1610139557131,1604,Home Page,200,OK,Scenario 1 1-40,text,true,,51151,313,20,20,http://192.168.1.10:5005/,499,0,303
+1610139557771,1168,Buat Instance,200,OK,Scenario 1 1-26,text,true,,15626,321,21,21,http://192.168.1.10:5005/buatbaru,909,0,223
+1610139558450,515,Page Returning 404,404,NOT FOUND,Scenario 1 1-27,text,true,,393,317,21,21,http://192.168.1.10:5005/test,515,0,224
+1610139557893,1097,Home Page,200,OK,Scenario 1 1-44,text,true,,51151,313,20,20,http://192.168.1.10:5005/,422,0,186
+1610139558707,516,Page Returning 404,404,NOT FOUND,Scenario 1 1-25,text,true,,393,317,20,20,http://192.168.1.10:5005/test,516,0,244
+1610139557893,1379,Buat Instance,200,OK,Scenario 1 1-28,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,1112,0,186
+1610139557799,1496,Buat Instance,200,OK,Scenario 1 1-42,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,1244,0,232
+1610139558168,1158,Home Page,200,OK,Scenario 1 1-37,text,true,,51151,313,19,19,http://192.168.1.10:5005/,374,0,176
+1610139557936,1391,Buat Instance,200,OK,Scenario 1 1-29,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,1158,0,147
+1610139558991,371,dashboard,200,OK,Scenario 1 1-44,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,370,0,262
+1610139558736,626,dashboard,200,OK,Scenario 1 1-40,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,525,0,254
+1610139558346,1024,Home Page,200,OK,Scenario 1 1-32,text,true,,51151,313,19,19,http://192.168.1.10:5005/,516,0,204
+1610139557829,1592,Buat Instance,200,OK,Scenario 1 1-31,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,1503,0,203
+1610139556815,2610,Buat Instance,200,OK,Scenario 1 1-33,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,2520,0,1217
+1610139558352,1073,Buat Instance,200,OK,Scenario 1 1-43,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,988,0,199
+1610139558292,1141,Buat Instance,200,OK,Scenario 1 1-30,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,1061,0,185
+1610139559285,148,Page Returning 404,404,NOT FOUND,Scenario 1 1-34,text,true,,393,317,19,19,http://192.168.1.10:5005/test,148,0,77
+1610139559326,148,dashboard,200,OK,Scenario 1 1-37,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,148,0,44
+1610139558083,1393,Buat Instance,200,OK,Scenario 1 1-39,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,1325,0,201
+1610139558098,1379,Buat Instance,200,OK,Scenario 1 1-35,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,1327,0,207
+1610139558554,948,Buat Instance,200,OK,Scenario 1 1-36,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,879,0,266
+1610139558344,1158,Buat Instance,200,OK,Scenario 1 1-41,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,1089,0,182
+1610139559352,165,Page Returning 404,404,NOT FOUND,Scenario 1 1-38,text,true,,393,317,19,19,http://192.168.1.10:5005/test,165,0,79
+1610139558891,630,Home Page,200,OK,Scenario 1 1-45,text,true,,51151,313,19,19,http://192.168.1.10:5005/,447,0,263
+1610139559371,153,dashboard,200,OK,Scenario 1 1-32,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,153,0,100
+1610139559434,454,Home Page,200,OK,Scenario 1 1-34,text,true,,51151,313,19,19,http://192.168.1.10:5005/,170,0,86
+1610139559518,467,Home Page,200,OK,Scenario 1 1-38,text,true,,51151,313,20,20,http://192.168.1.10:5005/,79,0,25
+1610139559363,668,Buat Instance,200,OK,Scenario 1 1-40,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,561,0,70
+1610139559475,596,Buat Instance,200,OK,Scenario 1 1-37,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,475,0,46
+1610139559363,712,Buat Instance,200,OK,Scenario 1 1-44,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,611,0,70
+1610139559525,599,Buat Instance,200,OK,Scenario 1 1-32,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,463,0,54
+1610139559889,259,dashboard,200,OK,Scenario 1 1-34,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,256,0,98
+1610139559984,234,dashboard,200,OK,Scenario 1 1-38,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,232,0,137
+1610139560025,229,Page Returning 404,404,NOT FOUND,Scenario 1 1-26,text,true,,393,317,20,20,http://192.168.1.10:5005/test,229,0,119
+1610139559522,817,dashboard,200,OK,Scenario 1 1-45,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,142,0,57
+1610139559893,557,Home Page,200,OK,Scenario 1 1-46,text,true,,51151,313,19,19,http://192.168.1.10:5005/,236,0,94
+1610139560339,216,Page Returning 404,404,NOT FOUND,Scenario 1 1-28,text,true,,393,317,19,19,http://192.168.1.10:5005/test,215,0,110
+1610139560363,216,Page Returning 404,404,NOT FOUND,Scenario 1 1-29,text,true,,393,317,18,18,http://192.168.1.10:5005/test,216,0,129
+1610139560358,226,Page Returning 404,404,NOT FOUND,Scenario 1 1-42,text,true,,393,317,17,17,http://192.168.1.10:5005/test,226,0,134
+1610139560450,221,dashboard,200,OK,Scenario 1 1-46,text,true,,12429,322,17,17,http://192.168.1.10:5005/dashboard,219,0,104
+1610139560466,207,Page Returning 404,404,NOT FOUND,Scenario 1 1-31,text,true,,393,317,17,17,http://192.168.1.10:5005/test,207,0,95
+1610139560477,201,Page Returning 404,404,NOT FOUND,Scenario 1 1-33,text,true,,393,317,17,17,http://192.168.1.10:5005/test,201,0,99
+1610139560501,202,Page Returning 404,404,NOT FOUND,Scenario 1 1-43,text,true,,393,317,17,17,http://192.168.1.10:5005/test,201,0,89
+1610139560500,223,Page Returning 404,404,NOT FOUND,Scenario 1 1-30,text,true,,393,317,17,17,http://192.168.1.10:5005/test,222,0,90
+1610139560587,211,Page Returning 404,404,NOT FOUND,Scenario 1 1-36,text,true,,393,317,17,17,http://192.168.1.10:5005/test,211,0,96
+1610139560567,231,Page Returning 404,404,NOT FOUND,Scenario 1 1-41,text,true,,393,317,17,17,http://192.168.1.10:5005/test,231,0,102
+1610139560575,224,Page Returning 404,404,NOT FOUND,Scenario 1 1-35,text,true,,393,317,17,17,http://192.168.1.10:5005/test,223,0,100
+1610139560148,713,Buat Instance,200,OK,Scenario 1 1-34,text,true,,15626,321,17,17,http://192.168.1.10:5005/buatbaru,604,0,106
+1610139560219,651,Buat Instance,200,OK,Scenario 1 1-38,text,true,,15626,321,17,17,http://192.168.1.10:5005/buatbaru,545,0,79
+1610139560338,573,Buat Instance,200,OK,Scenario 1 1-45,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,464,0,111
+1610139560585,600,Home Page,200,OK,Scenario 1 1-42,text,true,,51151,313,18,18,http://192.168.1.10:5005/,213,0,95
+1610139560672,652,Buat Instance,200,OK,Scenario 1 1-46,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,472,0,101
+1610139560564,761,Page Returning 404,404,NOT FOUND,Scenario 1 1-39,text,true,,393,317,18,18,http://192.168.1.10:5005/test,760,0,105
+1610139560674,676,Home Page,200,OK,Scenario 1 1-31,text,true,,51151,313,18,18,http://192.168.1.10:5005/,230,0,99
+1610139560678,682,Home Page,200,OK,Scenario 1 1-33,text,true,,51151,313,18,18,http://192.168.1.10:5005/,251,0,97
+1610139561073,326,Page Returning 404,404,NOT FOUND,Scenario 1 1-37,text,true,,393,317,18,18,http://192.168.1.10:5005/test,326,0,169
+1610139561100,309,Page Returning 404,404,NOT FOUND,Scenario 1 1-40,text,true,,393,317,18,18,http://192.168.1.10:5005/test,309,0,175
+1610139560723,696,Home Page,200,OK,Scenario 1 1-30,text,true,,51151,313,18,18,http://192.168.1.10:5005/,277,0,128
+1610139561180,275,Page Returning 404,404,NOT FOUND,Scenario 1 1-32,text,true,,393,317,18,18,http://192.168.1.10:5005/test,275,0,145
+1610139560799,661,Home Page,200,OK,Scenario 1 1-35,text,true,,51151,313,18,18,http://192.168.1.10:5005/,252,0,110
+1610139561186,279,dashboard,200,OK,Scenario 1 1-42,text,true,,12429,322,18,18,http://192.168.1.10:5005/dashboard,276,0,157
+1610139560799,702,Home Page,200,OK,Scenario 1 1-41,text,true,,51151,313,18,18,http://192.168.1.10:5005/,272,0,110
+1610139560799,704,Home Page,200,OK,Scenario 1 1-36,text,true,,51151,313,18,18,http://192.168.1.10:5005/,275,0,112
+1610139561351,240,dashboard,200,OK,Scenario 1 1-31,text,true,,12429,322,18,18,http://192.168.1.10:5005/dashboard,239,0,109
+1610139561361,258,dashboard,200,OK,Scenario 1 1-33,text,true,,12429,322,18,18,http://192.168.1.10:5005/dashboard,258,0,118
+1610139560703,918,Home Page,200,OK,Scenario 1 1-43,text,true,,51151,313,18,18,http://192.168.1.10:5005/,244,0,129
+1610139561461,321,dashboard,200,OK,Scenario 1 1-35,text,true,,12429,322,18,18,http://192.168.1.10:5005/dashboard,315,0,126
+1610139561502,311,dashboard,200,OK,Scenario 1 1-41,text,true,,12429,322,18,18,http://192.168.1.10:5005/dashboard,306,0,119
+1610139561504,315,dashboard,200,OK,Scenario 1 1-36,text,true,,12429,322,18,18,http://192.168.1.10:5005/dashboard,310,0,120
+1610139561622,302,dashboard,200,OK,Scenario 1 1-43,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,301,0,160
+1610139561326,630,Home Page,200,OK,Scenario 1 1-39,text,true,,51151,313,19,19,http://192.168.1.10:5005/,261,0,123
+1610139561400,602,Home Page,200,OK,Scenario 1 1-37,text,true,,51151,313,19,19,http://192.168.1.10:5005/,235,0,103
+1610139561410,597,Home Page,200,OK,Scenario 1 1-40,text,true,,51151,313,19,19,http://192.168.1.10:5005/,237,0,94
+1610139561456,575,Home Page,200,OK,Scenario 1 1-32,text,true,,51151,313,19,19,http://192.168.1.10:5005/,304,0,131
+1610139561895,188,Page Returning 404,404,NOT FOUND,Scenario 1 1-34,text,true,,393,317,19,19,http://192.168.1.10:5005/test,188,0,94
+1610139561935,171,Page Returning 404,404,NOT FOUND,Scenario 1 1-38,text,true,,393,317,19,19,http://192.168.1.10:5005/test,171,0,74
+1610139561957,178,dashboard,200,OK,Scenario 1 1-39,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,174,0,55
+1610139561967,171,Page Returning 404,404,NOT FOUND,Scenario 1 1-45,text,true,,393,317,19,19,http://192.168.1.10:5005/test,171,0,66
+1610139560892,1260,Home Page,200,OK,Scenario 1 1-47,text,true,,51151,313,19,19,http://192.168.1.10:5005/,247,0,109
+1610139561890,265,Home Page,200,OK,Scenario 1 1-48,text,true,,51151,313,19,19,http://192.168.1.10:5005/,200,0,99
+1610139561465,712,Buat Instance,200,OK,Scenario 1 1-42,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,707,0,133
+1610139562002,219,dashboard,200,OK,Scenario 1 1-37,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,208,0,63
+1610139562007,237,dashboard,200,OK,Scenario 1 1-40,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,235,0,58
+1610139562032,240,dashboard,200,OK,Scenario 1 1-32,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,212,0,63
+1610139561083,1219,Page Returning 404,404,NOT FOUND,Scenario 1 1-44,text,true,,393,317,19,19,http://192.168.1.10:5005/test,1218,0,1023
+1610139562156,283,dashboard,200,OK,Scenario 1 1-48,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,283,0,18
+1610139562153,288,dashboard,200,OK,Scenario 1 1-47,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,287,0,18
+1610139561620,821,Buat Instance,200,OK,Scenario 1 1-33,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,666,0,162
+1610139561783,702,Buat Instance,200,OK,Scenario 1 1-35,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,655,0,126
+1610139562084,401,Home Page,200,OK,Scenario 1 1-34,text,true,,51151,313,19,19,http://192.168.1.10:5005/,197,0,23
+1610139561592,893,Buat Instance,200,OK,Scenario 1 1-31,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,842,0,134
+1610139561924,582,Buat Instance,200,OK,Scenario 1 1-43,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,561,0,85
+1610139562107,402,Home Page,200,OK,Scenario 1 1-38,text,true,,51151,313,19,19,http://192.168.1.10:5005/,212,0,36
+1610139562139,370,Home Page,200,OK,Scenario 1 1-45,text,true,,51151,313,19,19,http://192.168.1.10:5005/,302,0,17
+1610139561419,1101,dashboard,200,OK,Scenario 1 1-30,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,1095,0,1066
+1610139562438,144,Page Returning 404,404,NOT FOUND,Scenario 1 1-46,text,true,,393,317,19,19,http://192.168.1.10:5005/test,144,0,48
+1610139562485,155,dashboard,200,OK,Scenario 1 1-34,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,154,0,38
+1610139562509,133,dashboard,200,OK,Scenario 1 1-45,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,131,0,16
+1610139561820,852,Buat Instance,200,OK,Scenario 1 1-36,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,784,0,102
+1610139562509,171,dashboard,200,OK,Scenario 1 1-38,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,170,0,16
+1610139561814,919,Buat Instance,200,OK,Scenario 1 1-41,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,873,0,105
+1610139562302,437,Home Page,200,OK,Scenario 1 1-44,text,true,,51151,313,19,19,http://192.168.1.10:5005/,193,0,138
+1610139562135,605,Buat Instance,200,OK,Scenario 1 1-39,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,565,0,17
+1610139562739,133,dashboard,200,OK,Scenario 1 1-44,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,128,0,50
+1610139562583,303,Home Page,200,OK,Scenario 1 1-46,text,true,,51151,313,19,19,http://192.168.1.10:5005/,146,0,68
+1610139562222,664,Buat Instance,200,OK,Scenario 1 1-37,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,579,0,8
+1610139562273,613,Buat Instance,200,OK,Scenario 1 1-32,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,570,0,43
+1610139562244,691,Buat Instance,200,OK,Scenario 1 1-40,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,666,0,72
+1610139562887,76,dashboard,200,OK,Scenario 1 1-46,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,67,0,39
+1610139562643,459,Buat Instance,200,OK,Scenario 1 1-45,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,406,0,51
+1610139562891,212,Home Page,200,OK,Scenario 1 1-49,text,true,,51151,313,20,20,http://192.168.1.10:5005/,76,0,35
+1610139562680,475,Buat Instance,200,OK,Scenario 1 1-38,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,397,0,48
+1610139562441,758,Buat Instance,200,OK,Scenario 1 1-47,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,709,0,44
+1610139563104,108,dashboard,200,OK,Scenario 1 1-49,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,106,0,52
+1610139562520,730,Buat Instance,200,OK,Scenario 1 1-30,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,675,0,62
+1610139562440,856,Buat Instance,200,OK,Scenario 1 1-48,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,802,0,45
+1610139563204,100,Page Returning 404,404,NOT FOUND,Scenario 1 1-42,text,true,,393,317,20,20,http://192.168.1.10:5005/test,100,0,48
+1610139562963,388,Buat Instance,200,OK,Scenario 1 1-46,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,377,0,49
+1610139562641,779,Buat Instance,200,OK,Scenario 1 1-34,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,749,0,53
+1610139562872,564,Buat Instance,200,OK,Scenario 1 1-44,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,552,0,48
+1610139563305,134,Home Page,200,OK,Scenario 1 1-42,text,true,,51151,313,20,20,http://192.168.1.10:5005/,80,0,31
+1610139563439,23,dashboard,200,OK,Scenario 1 1-42,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,23,0,6
+1610139563213,344,Buat Instance,200,OK,Scenario 1 1-49,text,true,,15626,321,20,20,http://192.168.1.10:5005/buatbaru,323,0,40
+1610139563487,84,Page Returning 404,404,NOT FOUND,Scenario 1 1-31,text,true,,393,317,20,20,http://192.168.1.10:5005/test,83,0,48
+1610139563588,42,Page Returning 404,404,NOT FOUND,Scenario 1 1-43,text,true,,393,317,19,19,http://192.168.1.10:5005/test,42,0,34
+1610139563631,83,Home Page,200,OK,Scenario 1 1-43,text,true,,51151,313,19,19,http://192.168.1.10:5005/,33,0,9
+1610139563463,300,Buat Instance,200,OK,Scenario 1 1-42,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,273,0,30
+1610139563714,50,dashboard,200,OK,Scenario 1 1-43,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,49,0,22
+1610139563749,17,Page Returning 404,404,NOT FOUND,Scenario 1 1-41,text,true,,393,317,19,19,http://192.168.1.10:5005/test,16,0,6
+1610139563772,42,Page Returning 404,404,NOT FOUND,Scenario 1 1-36,text,true,,393,317,19,19,http://192.168.1.10:5005/test,42,0,29
+1610139563766,90,Home Page,200,OK,Scenario 1 1-41,text,true,,51151,313,19,19,http://192.168.1.10:5005/,44,0,9
+1610139563831,38,Page Returning 404,404,NOT FOUND,Scenario 1 1-39,text,true,,393,317,19,19,http://192.168.1.10:5005/test,38,0,24
+1610139563857,53,dashboard,200,OK,Scenario 1 1-41,text,true,,12429,322,20,20,http://192.168.1.10:5005/dashboard,52,0,11
+1610139563489,444,Page Returning 404,404,NOT FOUND,Scenario 1 1-33,text,true,,393,317,20,20,http://192.168.1.10:5005/test,444,0,46
+1610139563485,454,Page Returning 404,404,NOT FOUND,Scenario 1 1-35,text,true,,393,317,20,20,http://192.168.1.10:5005/test,454,0,49
+1610139563824,122,Home Page,200,OK,Scenario 1 1-36,text,true,,51151,313,20,20,http://192.168.1.10:5005/,36,0,25
+1610139563901,72,Page Returning 404,404,NOT FOUND,Scenario 1 1-37,text,true,,393,317,20,20,http://192.168.1.10:5005/test,71,0,22
+1610139563944,82,Page Returning 404,404,NOT FOUND,Scenario 1 1-32,text,true,,393,317,20,20,http://192.168.1.10:5005/test,82,0,24
+1610139563947,81,dashboard,200,OK,Scenario 1 1-36,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,81,0,21
+1610139563870,174,Home Page,200,OK,Scenario 1 1-39,text,true,,51151,313,19,19,http://192.168.1.10:5005/,70,0,39
+1610139563891,177,Home Page,200,OK,Scenario 1 1-50,text,true,,51151,313,19,19,http://192.168.1.10:5005/,77,0,31
+1610139563973,99,Page Returning 404,404,NOT FOUND,Scenario 1 1-40,text,true,,393,317,19,19,http://192.168.1.10:5005/test,99,0,41
+1610139563933,177,Home Page,200,OK,Scenario 1 1-33,text,true,,51151,313,19,19,http://192.168.1.10:5005/,43,0,12
+1610139563765,356,Buat Instance,200,OK,Scenario 1 1-43,text,true,,15626,321,19,19,http://192.168.1.10:5005/buatbaru,308,0,10
+1610139564044,89,dashboard,200,OK,Scenario 1 1-39,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,86,0,40
+1610139563940,215,Home Page,200,OK,Scenario 1 1-35,text,true,,51151,313,19,19,http://192.168.1.10:5005/,83,0,28
+1610139564069,101,dashboard,200,OK,Scenario 1 1-50,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,100,0,52
+1610139563973,211,Home Page,200,OK,Scenario 1 1-37,text,true,,51151,313,19,19,http://192.168.1.10:5005/,99,0,40
+1610139564111,101,dashboard,200,OK,Scenario 1 1-33,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,100,0,44
+1610139564115,98,Page Returning 404,404,NOT FOUND,Scenario 1 1-45,text,true,,393,317,19,19,http://192.168.1.10:5005/test,98,0,45
+1610139564155,103,dashboard,200,OK,Scenario 1 1-35,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,103,0,27
+1610139564230,87,Page Returning 404,404,NOT FOUND,Scenario 1 1-38,text,true,,393,317,19,19,http://192.168.1.10:5005/test,87,0,34
+1610139564251,70,Page Returning 404,404,NOT FOUND,Scenario 1 1-30,text,true,,393,317,19,19,http://192.168.1.10:5005/test,70,0,26
+1610139564184,131,dashboard,200,OK,Scenario 1 1-37,text,true,,12429,322,19,19,http://192.168.1.10:5005/dashboard,131,0,74
+1610139564073,242,Home Page,200,OK,Scenario 1 1-40,text,true,,51151,313,19,19,http://192.168.1.10:5005/,102,0,52
+1610139564281,110,Page Returning 404,404,NOT FOUND,Scenario 1 1-47,text,true,,393,317,18,18,http://192.168.1.10:5005/test,110,0,38
+1610139564213,241,Home Page,200,OK,Scenario 1 1-45,text,true,,51151,313,18,18,http://192.168.1.10:5005/,102,0,45
+1610139564133,322,Buat Instance,200,OK,Scenario 1 1-39,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,307,0,38
+1610139564337,173,dashboard,200,OK,Scenario 1 1-40,text,true,,12429,322,18,18,http://192.168.1.10:5005/dashboard,173,0,37
+1610139564382,135,Page Returning 404,404,NOT FOUND,Scenario 1 1-48,text,true,,393,317,18,18,http://192.168.1.10:5005/test,135,0,45
+1610139564384,157,Page Returning 404,404,NOT FOUND,Scenario 1 1-46,text,true,,393,317,18,18,http://192.168.1.10:5005/test,157,0,43
+1610139564336,209,Home Page,200,OK,Scenario 1 1-38,text,true,,51151,313,18,18,http://192.168.1.10:5005/,120,0,38
+1610139564435,111,Page Returning 404,404,NOT FOUND,Scenario 1 1-34,text,true,,393,317,18,18,http://192.168.1.10:5005/test,111,0,19
+1610139564455,118,dashboard,200,OK,Scenario 1 1-45,text,true,,12429,322,17,17,http://192.168.1.10:5005/dashboard,115,0,54
+1610139564515,73,Page Returning 404,404,NOT FOUND,Scenario 1 1-44,text,true,,393,317,17,17,http://192.168.1.10:5005/test,72,0,21
+1610139563910,717,Buat Instance,200,OK,Scenario 1 1-41,text,true,,15626,321,17,17,http://192.168.1.10:5005/buatbaru,669,0,25
+1610139564213,415,Buat Instance,200,OK,Scenario 1 1-33,text,true,,15626,321,17,17,http://192.168.1.10:5005/buatbaru,375,0,45
+1610139564392,236,Home Page,200,OK,Scenario 1 1-47,text,true,,51151,313,17,17,http://192.168.1.10:5005/,132,0,35
+1610139564029,607,Buat Instance,200,OK,Scenario 1 1-36,text,true,,15626,321,17,17,http://192.168.1.10:5005/buatbaru,592,0,39
+1610139564545,116,dashboard,200,OK,Scenario 1 1-38,text,true,,12429,322,17,17,http://192.168.1.10:5005/dashboard,116,0,28
+1610139564517,145,Home Page,200,OK,Scenario 1 1-48,text,true,,51151,313,17,17,http://192.168.1.10:5005/,67,0,19
+1610139564589,129,Home Page,200,OK,Scenario 1 1-44,text,true,,51151,313,17,17,http://192.168.1.10:5005/,82,0,38
+1610139564626,96,Page Returning 404,404,NOT FOUND,Scenario 1 1-49,text,true,,393,317,17,17,http://192.168.1.10:5005/test,96,0,13
+1610139564629,98,dashboard,200,OK,Scenario 1 1-47,text,true,,12429,322,17,17,http://192.168.1.10:5005/dashboard,95,0,12
+1610139564663,67,dashboard,200,OK,Scenario 1 1-48,text,true,,12429,322,17,17,http://192.168.1.10:5005/dashboard,66,0,15
+1610139564542,192,Home Page,200,OK,Scenario 1 1-46,text,true,,51151,313,17,17,http://192.168.1.10:5005/,119,0,31
+1610139564170,576,Buat Instance,200,OK,Scenario 1 1-50,text,true,,15626,321,17,17,http://192.168.1.10:5005/buatbaru,555,0,50
+1610139564734,141,dashboard,200,OK,Scenario 1 1-46,text,true,,12429,322,17,17,http://192.168.1.10:5005/dashboard,139,0,12
+1610139564336,583,Buat Instance,200,OK,Scenario 1 1-37,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,537,0,38
+1610139564718,226,dashboard,200,OK,Scenario 1 1-44,text,true,,12429,322,18,18,http://192.168.1.10:5005/dashboard,87,0,27
+1610139564259,735,Buat Instance,200,OK,Scenario 1 1-35,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,687,0,55
+1610139564511,484,Buat Instance,200,OK,Scenario 1 1-40,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,443,0,25
+1610139564846,155,Page Returning 404,404,NOT FOUND,Scenario 1 1-42,text,true,,393,317,18,18,http://192.168.1.10:5005/test,155,0,72
+1610139564723,314,Home Page,200,OK,Scenario 1 1-49,text,true,,51151,313,18,18,http://192.168.1.10:5005/,150,0,22
+1610139564574,485,Buat Instance,200,OK,Scenario 1 1-45,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,467,0,52
+1610139564662,397,Buat Instance,200,OK,Scenario 1 1-38,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,371,0,16
+1610139565038,97,dashboard,200,OK,Scenario 1 1-49,text,true,,12429,322,18,18,http://192.168.1.10:5005/dashboard,93,0,22
+1610139564890,245,Home Page,200,OK,Scenario 1 1-51,text,true,,51151,313,18,18,http://192.168.1.10:5005/,118,0,53
+1610139564731,446,Buat Instance,200,OK,Scenario 1 1-48,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,405,0,15
+1610139565003,194,Home Page,200,OK,Scenario 1 1-42,text,true,,51151,313,18,18,http://192.168.1.10:5005/,74,0,48
+1610139565136,89,dashboard,200,OK,Scenario 1 1-51,text,true,,12429,322,18,18,http://192.168.1.10:5005/dashboard,88,0,43
+1610139565163,99,Page Returning 404,404,NOT FOUND,Scenario 1 1-43,text,true,,393,317,18,18,http://192.168.1.10:5005/test,99,0,34
+1610139565198,80,dashboard,200,OK,Scenario 1 1-42,text,true,,12429,322,18,18,http://192.168.1.10:5005/dashboard,79,0,35
+1610139564728,554,Buat Instance,200,OK,Scenario 1 1-47,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,512,0,18
+1610139564876,408,Buat Instance,200,OK,Scenario 1 1-46,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,387,0,61
+1610139564944,420,Buat Instance,200,OK,Scenario 1 1-44,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,397,0,47
+1610139565263,118,Home Page,200,OK,Scenario 1 1-43,text,true,,51151,313,18,18,http://192.168.1.10:5005/,48,0,22
+1610139565381,111,dashboard,200,OK,Scenario 1 1-43,text,true,,12429,322,18,18,http://192.168.1.10:5005/dashboard,85,0,27
+1610139565226,335,Buat Instance,200,OK,Scenario 1 1-51,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,323,0,30
+1610139565547,57,Page Returning 404,404,NOT FOUND,Scenario 1 1-39,text,true,,393,317,18,18,http://192.168.1.10:5005/test,56,0,13
+1610139565279,400,Buat Instance,200,OK,Scenario 1 1-42,text,true,,15626,321,18,18,http://192.168.1.10:5005/buatbaru,373,0,6
+1610139565650,100,Page Returning 404,404,NOT FOUND,Scenario 1 1-33,text,true,,393,317,18,18,http://192.168.1.10:5005/test,100,0,29
+1610139565604,176,Home Page,200,OK,Scenario 1 1-39,text,true,,51151,313,17,17,http://192.168.1.10:5005/,35,0,4
+1610139565669,112,Page Returning 404,404,NOT FOUND,Scenario 1 1-36,text,true,,393,317,17,17,http://192.168.1.10:5005/test,112,0,55
+1610139565493,314,Buat Instance,200,OK,Scenario 1 1-43,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,290,0,16
+1610139565712,96,Page Returning 404,404,NOT FOUND,Scenario 1 1-41,text,true,,393,317,16,16,http://192.168.1.10:5005/test,95,0,65
+1610139565136,806,Buat Instance,200,OK,Scenario 1 1-49,text,true,,15626,321,16,16,http://192.168.1.10:5005/buatbaru,323,0,41
+1610139565780,218,dashboard,200,OK,Scenario 1 1-39,text,true,,12429,322,17,17,http://192.168.1.10:5005/dashboard,213,0,27
+1610139565796,259,Page Returning 404,404,NOT FOUND,Scenario 1 1-50,text,true,,393,317,17,17,http://192.168.1.10:5005/test,259,0,196
+1610139565954,162,Page Returning 404,404,NOT FOUND,Scenario 1 1-37,text,true,,393,317,17,17,http://192.168.1.10:5005/test,162,0,68
+1610139566068,172,Page Returning 404,404,NOT FOUND,Scenario 1 1-40,text,true,,393,317,16,16,http://192.168.1.10:5005/test,172,0,84
+1610139565808,471,Home Page,200,OK,Scenario 1 1-41,text,true,,51151,313,16,16,http://192.168.1.10:5005/,216,0,184
+1610139566084,199,Page Returning 404,404,NOT FOUND,Scenario 1 1-35,text,true,,393,317,16,16,http://192.168.1.10:5005/test,199,0,97
+1610139566109,174,Page Returning 404,404,NOT FOUND,Scenario 1 1-45,text,true,,393,317,16,16,http://192.168.1.10:5005/test,174,0,74
+1610139566133,174,Page Returning 404,404,NOT FOUND,Scenario 1 1-38,text,true,,393,317,15,15,http://192.168.1.10:5005/test,174,0,98
+1610139565944,396,Home Page,200,OK,Scenario 1 1-52,text,true,,51151,313,14,14,http://192.168.1.10:5005/,170,0,78
+1610139566238,136,Page Returning 404,404,NOT FOUND,Scenario 1 1-48,text,true,,393,317,14,14,http://192.168.1.10:5005/test,136,0,69
+1610139565999,386,Buat Instance,200,OK,Scenario 1 1-39,text,true,,15626,321,14,14,http://192.168.1.10:5005/buatbaru,339,0,56
+1610139566057,336,Home Page,200,OK,Scenario 1 1-50,text,true,,51151,313,14,14,http://192.168.1.10:5005/,177,0,75
+1610139566279,143,dashboard,200,OK,Scenario 1 1-41,text,true,,12429,322,14,14,http://192.168.1.10:5005/dashboard,141,0,65
+1610139566326,100,Page Returning 404,404,NOT FOUND,Scenario 1 1-46,text,true,,393,317,14,14,http://192.168.1.10:5005/test,100,0,59
+1610139566349,93,Page Returning 404,404,NOT FOUND,Scenario 1 1-47,text,true,,393,317,14,14,http://192.168.1.10:5005/test,93,0,43
+1610139566342,101,dashboard,200,OK,Scenario 1 1-52,text,true,,12429,322,14,14,http://192.168.1.10:5005/dashboard,99,0,50
+1610139566393,83,dashboard,200,OK,Scenario 1 1-50,text,true,,12429,322,14,14,http://192.168.1.10:5005/dashboard,78,0,34
+1610139566284,263,Home Page,200,OK,Scenario 1 1-45,text,true,,51151,313,14,14,http://192.168.1.10:5005/,133,0,60
+1610139566241,307,Home Page,200,OK,Scenario 1 1-40,text,true,,51151,313,14,14,http://192.168.1.10:5005/,175,0,99
+1610139566462,110,Page Returning 404,404,NOT FOUND,Scenario 1 1-44,text,true,,393,317,14,14,http://192.168.1.10:5005/test,110,0,48
+1610139566375,212,Home Page,200,OK,Scenario 1 1-48,text,true,,51151,313,14,14,http://192.168.1.10:5005/,86,0,41
+1610139566427,189,Home Page,200,OK,Scenario 1 1-46,text,true,,51151,313,14,14,http://192.168.1.10:5005/,93,0,53
+1610139566549,80,dashboard,200,OK,Scenario 1 1-40,text,true,,12429,322,14,14,http://192.168.1.10:5005/dashboard,68,0,34
+1610139566548,84,dashboard,200,OK,Scenario 1 1-45,text,true,,12429,322,14,14,http://192.168.1.10:5005/dashboard,81,0,35
+1610139566587,73,Page Returning 404,404,NOT FOUND,Scenario 1 1-51,text,true,,393,317,14,14,http://192.168.1.10:5005/test,73,0,26
+1610139566587,103,dashboard,200,OK,Scenario 1 1-48,text,true,,12429,322,14,14,http://192.168.1.10:5005/dashboard,75,0,25
+1610139566443,260,Home Page,200,OK,Scenario 1 1-47,text,true,,51151,313,14,14,http://192.168.1.10:5005/,121,0,62
+1610139566704,117,dashboard,200,OK,Scenario 1 1-47,text,true,,12429,322,14,14,http://192.168.1.10:5005/dashboard,116,0,37
+1610139566617,203,dashboard,200,OK,Scenario 1 1-46,text,true,,12429,322,14,14,http://192.168.1.10:5005/dashboard,202,0,86
+1610139566735,208,Page Returning 404,404,NOT FOUND,Scenario 1 1-42,text,true,,393,317,15,15,http://192.168.1.10:5005/test,208,0,84
+1610139566573,463,Home Page,200,OK,Scenario 1 1-44,text,true,,51151,313,15,15,http://192.168.1.10:5005/,134,0,39
+1610139566423,616,Buat Instance,200,OK,Scenario 1 1-41,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,564,0,38
+1610139566903,176,Page Returning 404,404,NOT FOUND,Scenario 1 1-43,text,true,,393,317,15,15,http://192.168.1.10:5005/test,175,0,109
+1610139566444,642,Buat Instance,200,OK,Scenario 1 1-52,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,584,0,62
+1610139566661,480,Home Page,200,OK,Scenario 1 1-51,text,true,,51151,313,15,15,http://192.168.1.10:5005/,158,0,46
+1610139567008,137,Page Returning 404,404,NOT FOUND,Scenario 1 1-49,text,true,,393,317,15,15,http://192.168.1.10:5005/test,137,0,65
+1610139567037,143,dashboard,200,OK,Scenario 1 1-44,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,139,0,83
+1610139566892,375,Home Page,200,OK,Scenario 1 1-53,text,true,,51151,313,15,15,http://192.168.1.10:5005/,147,0,97
+1610139566477,791,Buat Instance,200,OK,Scenario 1 1-50,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,732,0,39
+1610139566690,586,Buat Instance,200,OK,Scenario 1 1-48,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,526,0,48
+1610139566944,334,Home Page,200,OK,Scenario 1 1-42,text,true,,51151,313,15,15,http://192.168.1.10:5005/,150,0,92
+1610139567141,162,dashboard,200,OK,Scenario 1 1-51,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,153,0,79
+1610139566630,698,Buat Instance,200,OK,Scenario 1 1-40,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,685,0,77
+1610139566632,695,Buat Instance,200,OK,Scenario 1 1-45,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,673,0,71
+1610139567080,251,Home Page,200,OK,Scenario 1 1-43,text,true,,51151,313,15,15,http://192.168.1.10:5005/,135,0,53
+1610139567268,78,dashboard,200,OK,Scenario 1 1-53,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,76,0,43
+1610139566825,523,Buat Instance,200,OK,Scenario 1 1-47,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,499,0,117
+1610139567279,90,dashboard,200,OK,Scenario 1 1-42,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,90,0,41
+1610139567146,224,Home Page,200,OK,Scenario 1 1-49,text,true,,51151,313,15,15,http://192.168.1.10:5005/,135,0,74
+1610139566825,549,Buat Instance,200,OK,Scenario 1 1-46,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,521,0,117
+1610139567332,274,dashboard,200,OK,Scenario 1 1-43,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,273,0,37
+1610139567370,236,dashboard,200,OK,Scenario 1 1-49,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,235,0,191
+1610139567446,160,Page Returning 404,404,NOT FOUND,Scenario 1 1-39,text,true,,393,317,15,15,http://192.168.1.10:5005/test,160,0,116
+1610139567180,437,Buat Instance,200,OK,Scenario 1 1-44,text,true,,15626,321,14,14,http://192.168.1.10:5005/buatbaru,425,0,87
+1610139567303,335,Buat Instance,200,OK,Scenario 1 1-51,text,true,,15626,321,14,14,http://192.168.1.10:5005/buatbaru,328,0,24
+1610139567347,393,Buat Instance,200,OK,Scenario 1 1-53,text,true,,15626,321,14,14,http://192.168.1.10:5005/buatbaru,366,0,27
+1610139567606,436,Buat Instance,200,OK,Scenario 1 1-43,text,true,,15626,321,14,14,http://192.168.1.10:5005/buatbaru,436,0,11
+1610139567369,683,Buat Instance,200,OK,Scenario 1 1-42,text,true,,15626,321,14,14,http://192.168.1.10:5005/buatbaru,682,0,192
+1610139567606,446,Buat Instance,200,OK,Scenario 1 1-49,text,true,,15626,321,14,14,http://192.168.1.10:5005/buatbaru,445,0,11
+1610139568095,109,Page Returning 404,404,NOT FOUND,Scenario 1 1-41,text,true,,393,317,15,15,http://192.168.1.10:5005/test,109,0,51
+1610139568133,74,Page Returning 404,404,NOT FOUND,Scenario 1 1-52,text,true,,393,317,15,15,http://192.168.1.10:5005/test,74,0,17
+1610139568060,273,Home Page,200,OK,Scenario 1 1-54,text,true,,51151,313,15,15,http://192.168.1.10:5005/,92,0,62
+1610139568304,126,Page Returning 404,404,NOT FOUND,Scenario 1 1-50,text,true,,393,317,15,15,http://192.168.1.10:5005/test,126,0,79
+1610139568354,125,Page Returning 404,404,NOT FOUND,Scenario 1 1-40,text,true,,393,317,15,15,http://192.168.1.10:5005/test,124,0,63
+1610139568348,142,dashboard,200,OK,Scenario 1 1-54,text,true,,12429,322,14,14,http://192.168.1.10:5005/dashboard,132,0,69
+1610139568367,123,Page Returning 404,404,NOT FOUND,Scenario 1 1-48,text,true,,393,317,14,14,http://192.168.1.10:5005/test,123,0,55
+1610139568205,305,Home Page,200,OK,Scenario 1 1-41,text,true,,51151,313,14,14,http://192.168.1.10:5005/,127,0,43
+1610139568208,302,Home Page,200,OK,Scenario 1 1-52,text,true,,51151,313,14,14,http://192.168.1.10:5005/,124,0,41
+1610139568416,101,Page Returning 404,404,NOT FOUND,Scenario 1 1-45,text,true,,393,317,14,14,http://192.168.1.10:5005/test,100,0,56
+1610139568393,126,Page Returning 404,404,NOT FOUND,Scenario 1 1-47,text,true,,393,317,14,14,http://192.168.1.10:5005/test,126,0,78
+1610139568427,103,Page Returning 404,404,NOT FOUND,Scenario 1 1-46,text,true,,393,317,14,14,http://192.168.1.10:5005/test,103,0,63
+1610139568431,137,Home Page,200,OK,Scenario 1 1-50,text,true,,51151,313,14,14,http://192.168.1.10:5005/,112,0,59
+1610139568511,107,dashboard,200,OK,Scenario 1 1-52,text,true,,12429,322,14,14,http://192.168.1.10:5005/dashboard,106,0,15
+1610139568511,107,dashboard,200,OK,Scenario 1 1-41,text,true,,12429,322,14,14,http://192.168.1.10:5005/dashboard,104,0,15
+1610139568569,84,dashboard,200,OK,Scenario 1 1-50,text,true,,12429,322,14,14,http://192.168.1.10:5005/dashboard,83,0,15
+1610139568652,183,Page Returning 404,404,NOT FOUND,Scenario 1 1-44,text,true,,393,317,14,14,http://192.168.1.10:5005/test,183,0,80
+1610139568531,302,Home Page,200,OK,Scenario 1 1-46,text,true,,51151,313,14,14,http://192.168.1.10:5005/,108,0,22
+1610139568520,312,Home Page,200,OK,Scenario 1 1-47,text,true,,51151,313,14,14,http://192.168.1.10:5005/,101,0,25
+1610139568517,329,Home Page,200,OK,Scenario 1 1-45,text,true,,51151,313,14,14,http://192.168.1.10:5005/,104,0,12
+1610139568714,168,Page Returning 404,404,NOT FOUND,Scenario 1 1-51,text,true,,393,317,14,14,http://192.168.1.10:5005/test,168,0,77
+1610139568491,444,Home Page,200,OK,Scenario 1 1-48,text,true,,51151,313,15,15,http://192.168.1.10:5005/,117,0,33
+1610139568756,181,Page Returning 404,404,NOT FOUND,Scenario 1 1-53,text,true,,393,317,15,15,http://192.168.1.10:5005/test,180,0,90
+1610139568491,449,Buat Instance,200,OK,Scenario 1 1-54,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,397,0,32
+1610139568840,137,dashboard,200,OK,Scenario 1 1-46,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,134,0,55
+1610139568841,139,dashboard,200,OK,Scenario 1 1-47,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,138,0,54
+1610139568846,139,dashboard,200,OK,Scenario 1 1-45,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,139,0,89
+1610139568619,457,Buat Instance,200,OK,Scenario 1 1-52,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,406,0,72
+1610139568935,211,dashboard,200,OK,Scenario 1 1-48,text,true,,12429,322,15,15,http://192.168.1.10:5005/dashboard,117,0,47
+1610139568840,308,Home Page,200,OK,Scenario 1 1-44,text,true,,51151,313,15,15,http://192.168.1.10:5005/,130,0,55
+1610139568619,639,Buat Instance,200,OK,Scenario 1 1-41,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,527,0,72
+1610139568653,611,Buat Instance,200,OK,Scenario 1 1-50,text,true,,15626,321,15,15,http://192.168.1.10:5005/buatbaru,512,0,79
+1610139568883,381,Home Page,200,OK,Scenario 1 1-51,text,true,,51151,313,15,15,http://192.168.1.10:5005/,127,0,56
+1610139568891,401,Home Page,200,OK,Scenario 1 1-55,text,true,,51151,313,15,15,http://192.168.1.10:5005/,132,0,49
+1610139569083,211,Page Returning 404,404,NOT FOUND,Scenario 1 1-42,text,true,,393,317,15,15,http://192.168.1.10:5005/test,211,0,120
+1610139569095,199,Page Returning 404,404,NOT FOUND,Scenario 1 1-43,text,true,,393,317,15,15,http://192.168.1.10:5005/test,199,0,108
+1610139569116,197,Page Returning 404,404,NOT FOUND,Scenario 1 1-49,text,true,,393,317,13,13,http://192.168.1.10:5005/test,197,0,104
+1610139568937,423,Home Page,200,OK,Scenario 1 1-53,text,true,,51151,313,13,13,http://192.168.1.10:5005/,100,0,45
+1610139569148,225,dashboard,200,OK,Scenario 1 1-44,text,true,,12429,322,13,13,http://192.168.1.10:5005/dashboard,225,0,110
+1610139568986,456,Buat Instance,200,OK,Scenario 1 1-45,text,true,,15626,321,13,13,http://192.168.1.10:5005/buatbaru,397,0,76
+1610139569264,183,dashboard,200,OK,Scenario 1 1-51,text,true,,12429,322,13,13,http://192.168.1.10:5005/dashboard,179,0,109
+1610139569293,159,dashboard,200,OK,Scenario 1 1-55,text,true,,12429,322,13,13,http://192.168.1.10:5005/dashboard,156,0,90
+1610139568978,513,Buat Instance,200,OK,Scenario 1 1-46,text,true,,15626,321,13,13,http://192.168.1.10:5005/buatbaru,458,0,44
+1610139569361,131,dashboard,200,OK,Scenario 1 1-53,text,true,,12429,322,13,13,http://192.168.1.10:5005/dashboard,131,0,80
+1610139568980,514,Buat Instance,200,OK,Scenario 1 1-47,text,true,,15626,321,13,13,http://192.168.1.10:5005/buatbaru,473,0,42
+1610139569147,390,Buat Instance,200,OK,Scenario 1 1-48,text,true,,15626,321,13,13,http://192.168.1.10:5005/buatbaru,351,0,111
+1610139569314,255,Home Page,200,OK,Scenario 1 1-49,text,true,,51151,313,13,13,http://192.168.1.10:5005/,158,0,83
+1610139569570,67,dashboard,200,OK,Scenario 1 1-49,text,true,,12429,322,13,13,http://192.168.1.10:5005/dashboard,66,0,14
+1610139569452,401,Buat Instance,200,OK,Scenario 1 1-55,text,true,,15626,321,13,13,http://192.168.1.10:5005/buatbaru,324,0,42
+1610139569493,374,Buat Instance,200,OK,Scenario 1 1-53,text,true,,15626,321,13,13,http://192.168.1.10:5005/buatbaru,356,0,39
+1610139569374,513,Buat Instance,200,OK,Scenario 1 1-44,text,true,,15626,321,13,13,http://192.168.1.10:5005/buatbaru,489,0,67
+1610139569447,457,Buat Instance,200,OK,Scenario 1 1-51,text,true,,15626,321,14,14,http://192.168.1.10:5005/buatbaru,435,0,47
+1610139569638,325,Buat Instance,200,OK,Scenario 1 1-49,text,true,,15626,321,14,14,http://192.168.1.10:5005/buatbaru,306,0,38
+1610139569893,104,Home Page,200,OK,Scenario 1 1-56,text,true,,51151,313,14,14,http://192.168.1.10:5005/,57,0,27
+1610139569957,39,Page Returning 404,404,NOT FOUND,Scenario 1 1-54,text,true,,393,317,14,14,http://192.168.1.10:5005/test,39,0,15
+1610139569997,78,dashboard,200,OK,Scenario 1 1-56,text,true,,12429,322,14,14,http://192.168.1.10:5005/dashboard,52,0,8
+1610139569997,174,Home Page,200,OK,Scenario 1 1-54,text,true,,51151,313,14,14,http://192.168.1.10:5005/,80,0,8
+1610139570158,54,Page Returning 404,404,NOT FOUND,Scenario 1 1-52,text,true,,393,317,14,14,http://192.168.1.10:5005/test,54,0,27
+1610139570172,54,dashboard,200,OK,Scenario 1 1-54,text,true,,12429,322,14,14,http://192.168.1.10:5005/dashboard,52,0,13
+1610139570213,93,Home Page,200,OK,Scenario 1 1-52,text,true,,51151,313,14,14,http://192.168.1.10:5005/,39,0,5
+1610139570307,50,dashboard,200,OK,Scenario 1 1-52,text,true,,12429,322,14,14,http://192.168.1.10:5005/dashboard,50,0,3
+1610139570330,77,Page Returning 404,404,NOT FOUND,Scenario 1 1-50,text,true,,393,317,14,14,http://192.168.1.10:5005/test,77,0,35
+1610139570346,91,Page Returning 404,404,NOT FOUND,Scenario 1 1-41,text,true,,393,317,14,14,http://192.168.1.10:5005/test,91,0,33
+1610139570075,389,Buat Instance,200,OK,Scenario 1 1-56,text,true,,15626,321,13,13,http://192.168.1.10:5005/buatbaru,369,0,42
+1610139570407,95,Home Page,200,OK,Scenario 1 1-50,text,true,,51151,313,13,13,http://192.168.1.10:5005/,50,0,13
+1610139570502,33,dashboard,200,OK,Scenario 1 1-50,text,true,,12429,322,13,13,http://192.168.1.10:5005/dashboard,28,0,7
+1610139570536,36,Page Returning 404,404,NOT FOUND,Scenario 1 1-45,text,true,,393,317,13,13,http://192.168.1.10:5005/test,35,0,15
+1610139570548,38,Page Returning 404,404,NOT FOUND,Scenario 1 1-46,text,true,,393,317,12,12,http://192.168.1.10:5005/test,38,0,13
+1610139570558,37,Page Returning 404,404,NOT FOUND,Scenario 1 1-47,text,true,,393,317,11,11,http://192.168.1.10:5005/test,37,0,15
+1610139570566,41,Page Returning 404,404,NOT FOUND,Scenario 1 1-48,text,true,,393,317,11,11,http://192.168.1.10:5005/test,41,0,8
+1610139570596,122,Home Page,200,OK,Scenario 1 1-47,text,true,,51151,313,11,11,http://192.168.1.10:5005/,43,0,16
+1610139570358,412,Buat Instance,200,OK,Scenario 1 1-52,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,374,0,43
+1610139570608,162,Home Page,200,OK,Scenario 1 1-48,text,true,,51151,313,11,11,http://192.168.1.10:5005/,65,0,22
+1610139570227,543,Buat Instance,200,OK,Scenario 1 1-54,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,499,0,38
+1610139570719,263,dashboard,200,OK,Scenario 1 1-47,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,114,0,26
+1610139570535,454,Buat Instance,200,OK,Scenario 1 1-50,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,283,0,16
+1610139570770,220,dashboard,200,OK,Scenario 1 1-48,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,219,0,48
+1610139570981,91,Page Returning 404,404,NOT FOUND,Scenario 1 1-44,text,true,,393,317,12,12,http://192.168.1.10:5005/test,91,0,50
+1610139570980,116,Page Returning 404,404,NOT FOUND,Scenario 1 1-53,text,true,,393,317,11,11,http://192.168.1.10:5005/test,116,0,51
+1610139570982,115,Page Returning 404,404,NOT FOUND,Scenario 1 1-51,text,true,,393,317,11,11,http://192.168.1.10:5005/test,115,0,49
+1610139570986,163,Page Returning 404,404,NOT FOUND,Scenario 1 1-55,text,true,,393,317,11,11,http://192.168.1.10:5005/test,163,0,45
+1610139571041,110,Page Returning 404,404,NOT FOUND,Scenario 1 1-49,text,true,,393,317,11,11,http://192.168.1.10:5005/test,110,0,15
+1610139570994,238,Home Page,200,OK,Scenario 1 1-57,text,true,,51151,313,11,11,http://192.168.1.10:5005/,154,0,37
+1610139571098,190,Home Page,200,OK,Scenario 1 1-51,text,true,,51151,313,11,11,http://192.168.1.10:5005/,82,0,50
+1610139571150,141,Home Page,200,OK,Scenario 1 1-55,text,true,,51151,313,11,11,http://192.168.1.10:5005/,45,0,17
+1610139571097,194,Home Page,200,OK,Scenario 1 1-53,text,true,,51151,313,11,11,http://192.168.1.10:5005/,79,0,51
+1610139571233,63,dashboard,200,OK,Scenario 1 1-57,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,63,0,36
+1610139571152,163,Home Page,200,OK,Scenario 1 1-49,text,true,,51151,313,11,11,http://192.168.1.10:5005/,82,0,33
+1610139571289,40,dashboard,200,OK,Scenario 1 1-51,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,37,0,26
+1610139571292,116,dashboard,200,OK,Scenario 1 1-55,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,47,0,23
+1610139571292,116,dashboard,200,OK,Scenario 1 1-53,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,116,0,23
+1610139571316,92,dashboard,200,OK,Scenario 1 1-49,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,92,0,7
+1610139570983,521,Buat Instance,200,OK,Scenario 1 1-47,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,472,0,48
+1610139570990,543,Buat Instance,200,OK,Scenario 1 1-48,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,510,0,41
+1610139571475,120,Page Returning 404,404,NOT FOUND,Scenario 1 1-56,text,true,,393,317,11,11,http://192.168.1.10:5005/test,120,0,58
+1610139571297,304,Buat Instance,200,OK,Scenario 1 1-57,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,263,0,18
+1610139571596,116,Home Page,200,OK,Scenario 1 1-56,text,true,,51151,313,11,11,http://192.168.1.10:5005/,45,0,9
+1610139571713,109,dashboard,200,OK,Scenario 1 1-56,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,108,0,22
+1610139571408,477,Buat Instance,200,OK,Scenario 1 1-55,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,414,0,52
+1610139571348,583,Buat Instance,200,OK,Scenario 1 1-51,text,true,,15626,321,12,12,http://192.168.1.10:5005/buatbaru,502,0,76
+1610139571799,137,Page Returning 404,404,NOT FOUND,Scenario 1 1-52,text,true,,393,317,12,12,http://192.168.1.10:5005/test,137,0,51
+1610139571409,547,Buat Instance,200,OK,Scenario 1 1-49,text,true,,15626,321,12,12,http://192.168.1.10:5005/buatbaru,480,0,50
+1610139571409,547,Buat Instance,200,OK,Scenario 1 1-53,text,true,,15626,321,12,12,http://192.168.1.10:5005/buatbaru,482,0,51
+1610139571856,133,Page Returning 404,404,NOT FOUND,Scenario 1 1-54,text,true,,393,317,12,12,http://192.168.1.10:5005/test,133,0,100
+1610139571892,215,Home Page,200,OK,Scenario 1 1-58,text,true,,51151,313,12,12,http://192.168.1.10:5005/,96,0,64
+1610139571936,171,Home Page,200,OK,Scenario 1 1-52,text,true,,51151,313,12,12,http://192.168.1.10:5005/,52,0,22
+1610139572016,98,Page Returning 404,404,NOT FOUND,Scenario 1 1-50,text,true,,393,317,12,12,http://192.168.1.10:5005/test,98,0,52
+1610139572108,53,dashboard,200,OK,Scenario 1 1-52,text,true,,12429,322,12,12,http://192.168.1.10:5005/dashboard,53,0,9
+1610139571990,171,Home Page,200,OK,Scenario 1 1-54,text,true,,51151,313,12,12,http://192.168.1.10:5005/,83,0,40
+1610139572108,54,dashboard,200,OK,Scenario 1 1-58,text,true,,12429,322,12,12,http://192.168.1.10:5005/dashboard,54,0,8
+1610139571822,351,Buat Instance,200,OK,Scenario 1 1-56,text,true,,15626,321,12,12,http://192.168.1.10:5005/buatbaru,343,0,63
+1610139572162,46,dashboard,200,OK,Scenario 1 1-54,text,true,,12429,322,12,12,http://192.168.1.10:5005/dashboard,46,0,8
+1610139572115,123,Home Page,200,OK,Scenario 1 1-50,text,true,,51151,313,12,12,http://192.168.1.10:5005/,79,0,46
+1610139572239,56,dashboard,200,OK,Scenario 1 1-50,text,true,,12429,322,12,12,http://192.168.1.10:5005/dashboard,40,0,21
+1610139572296,381,Buat Instance,200,OK,Scenario 1 1-50,text,true,,15626,321,12,12,http://192.168.1.10:5005/buatbaru,331,0,14
+1610139572530,147,Page Returning 404,404,NOT FOUND,Scenario 1 1-47,text,true,,393,317,12,12,http://192.168.1.10:5005/test,147,0,94
+1610139572578,128,Page Returning 404,404,NOT FOUND,Scenario 1 1-48,text,true,,393,317,11,11,http://192.168.1.10:5005/test,128,0,82
+1610139572162,546,Buat Instance,200,OK,Scenario 1 1-58,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,507,0,8
+1610139572209,499,Buat Instance,200,OK,Scenario 1 1-54,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,460,0,13
+1610139572663,54,Page Returning 404,404,NOT FOUND,Scenario 1 1-57,text,true,,393,317,10,10,http://192.168.1.10:5005/test,54,0,15
+1610139572162,607,Buat Instance,200,OK,Scenario 1 1-52,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,288,0,8
+1610139572718,292,Home Page,200,OK,Scenario 1 1-57,text,true,,51151,313,11,11,http://192.168.1.10:5005/,75,0,30
+1610139572923,88,Page Returning 404,404,NOT FOUND,Scenario 1 1-55,text,true,,393,317,11,11,http://192.168.1.10:5005/test,88,0,35
+1610139572953,96,Page Returning 404,404,NOT FOUND,Scenario 1 1-51,text,true,,393,317,11,11,http://192.168.1.10:5005/test,95,0,46
+1610139572961,103,Page Returning 404,404,NOT FOUND,Scenario 1 1-49,text,true,,393,317,11,11,http://192.168.1.10:5005/test,103,0,49
+1610139572960,104,Page Returning 404,404,NOT FOUND,Scenario 1 1-53,text,true,,393,317,11,11,http://192.168.1.10:5005/test,104,0,50
+1610139573011,109,dashboard,200,OK,Scenario 1 1-57,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,100,0,33
+1610139572891,242,Home Page,200,OK,Scenario 1 1-59,text,true,,51151,313,10,10,http://192.168.1.10:5005/,94,0,53
+1610139573134,223,dashboard,200,OK,Scenario 1 1-59,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,219,0,111
+1610139573012,434,Home Page,200,OK,Scenario 1 1-55,text,true,,51151,313,10,10,http://192.168.1.10:5005/,108,0,31
+1610139573231,236,Page Returning 404,404,NOT FOUND,Scenario 1 1-56,text,true,,393,317,10,10,http://192.168.1.10:5005/test,235,0,75
+1610139573065,441,Home Page,200,OK,Scenario 1 1-53,text,true,,51151,313,10,10,http://192.168.1.10:5005/,113,0,28
+1610139573050,611,Home Page,200,OK,Scenario 1 1-51,text,true,,51151,313,10,10,http://192.168.1.10:5005/,204,0,33
+1610139573121,565,Buat Instance,200,OK,Scenario 1 1-57,text,true,,15626,321,10,10,http://192.168.1.10:5005/buatbaru,428,0,88
+1610139573446,301,dashboard,200,OK,Scenario 1 1-55,text,true,,12429,322,10,10,http://192.168.1.10:5005/dashboard,291,0,109
+1610139573506,403,dashboard,200,OK,Scenario 1 1-53,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,323,0,154
+1610139573661,255,dashboard,200,OK,Scenario 1 1-51,text,true,,12429,322,11,11,http://192.168.1.10:5005/dashboard,255,0,134
+1610139573735,248,Page Returning 404,404,NOT FOUND,Scenario 1 1-58,text,true,,393,317,11,11,http://192.168.1.10:5005/test,248,0,144
+1610139573357,626,Buat Instance,200,OK,Scenario 1 1-59,text,true,,15626,321,11,11,http://192.168.1.10:5005/buatbaru,548,0,146
+1610139573697,287,Page Returning 404,404,NOT FOUND,Scenario 1 1-50,text,true,,393,317,11,11,http://192.168.1.10:5005/test,286,0,176
+1610139573763,249,Page Returning 404,404,NOT FOUND,Scenario 1 1-54,text,true,,393,317,9,9,http://192.168.1.10:5005/test,249,0,142
+1610139573858,182,Page Returning 404,404,NOT FOUND,Scenario 1 1-52,text,true,,393,317,9,9,http://192.168.1.10:5005/test,182,0,62
+1610139573467,596,Home Page,200,OK,Scenario 1 1-56,text,true,,51151,313,9,9,http://192.168.1.10:5005/,323,0,157
+1610139574064,216,dashboard,200,OK,Scenario 1 1-56,text,true,,12429,322,9,9,http://192.168.1.10:5005/dashboard,214,0,82
+1610139573892,638,Home Page,200,OK,Scenario 1 1-60,text,true,,51151,313,9,9,http://192.168.1.10:5005/,177,0,91
+1610139573984,547,Home Page,200,OK,Scenario 1 1-58,text,true,,51151,313,9,9,http://192.168.1.10:5005/,165,0,78
+1610139573748,785,Buat Instance,200,OK,Scenario 1 1-55,text,true,,15626,321,9,9,http://192.168.1.10:5005/buatbaru,478,0,156
+1610139574013,535,Home Page,200,OK,Scenario 1 1-54,text,true,,51151,313,8,8,http://192.168.1.10:5005/,171,0,87
+1610139573910,638,Buat Instance,200,OK,Scenario 1 1-53,text,true,,15626,321,8,8,http://192.168.1.10:5005/buatbaru,619,0,90
+1610139573917,645,Buat Instance,200,OK,Scenario 1 1-51,text,true,,15626,321,7,7,http://192.168.1.10:5005/buatbaru,610,0,95
+1610139574041,546,Home Page,200,OK,Scenario 1 1-52,text,true,,51151,313,6,6,http://192.168.1.10:5005/,208,0,105
+1610139574530,109,dashboard,200,OK,Scenario 1 1-60,text,true,,12429,322,6,6,http://192.168.1.10:5005/dashboard,109,0,63
+1610139574532,125,dashboard,200,OK,Scenario 1 1-58,text,true,,12429,322,6,6,http://192.168.1.10:5005/dashboard,123,0,67
+1610139574549,121,dashboard,200,OK,Scenario 1 1-54,text,true,,12429,322,6,6,http://192.168.1.10:5005/dashboard,112,0,53
+1610139574588,113,dashboard,200,OK,Scenario 1 1-52,text,true,,12429,322,6,6,http://192.168.1.10:5005/dashboard,113,0,27
+1610139574281,556,Buat Instance,200,OK,Scenario 1 1-56,text,true,,15626,321,6,6,http://192.168.1.10:5005/buatbaru,512,0,248
+1610139574752,140,Page Returning 404,404,NOT FOUND,Scenario 1 1-57,text,true,,393,317,6,6,http://192.168.1.10:5005/test,140,0,46
+1610139574891,92,Home Page,200,OK,Scenario 1 1-61,text,true,,51151,313,6,6,http://192.168.1.10:5005/,41,0,23
+1610139574893,125,Home Page,200,OK,Scenario 1 1-57,text,true,,51151,313,5,5,http://192.168.1.10:5005/,65,0,39
+1610139574658,368,Buat Instance,200,OK,Scenario 1 1-58,text,true,,15626,321,4,4,http://192.168.1.10:5005/buatbaru,356,0,92
+1610139574670,430,Buat Instance,200,OK,Scenario 1 1-54,text,true,,15626,321,3,3,http://192.168.1.10:5005/buatbaru,393,0,80
+1610139574640,465,Buat Instance,200,OK,Scenario 1 1-60,text,true,,15626,321,2,2,http://192.168.1.10:5005/buatbaru,460,0,61
+1610139574702,404,Buat Instance,200,OK,Scenario 1 1-52,text,true,,15626,321,1,1,http://192.168.1.10:5005/buatbaru,397,0,80
+1610139575903,84,Home Page,200,OK,Scenario 1 1-62,text,true,,51151,313,1,1,http://192.168.1.10:5005/,37,0,4
+1610139576892,169,Home Page,200,OK,Scenario 1 1-63,text,true,,51151,313,1,1,http://192.168.1.10:5005/,61,0,34
+1610139577891,115,Home Page,200,OK,Scenario 1 1-64,text,true,,51151,313,1,1,http://192.168.1.10:5005/,37,0,3
+1610139578892,155,Home Page,200,OK,Scenario 1 1-65,text,true,,51151,313,1,1,http://192.168.1.10:5005/,99,0,64
+1610139579892,151,Home Page,200,OK,Scenario 1 1-66,text,true,,51151,313,1,1,http://192.168.1.10:5005/,51,0,8
+1610139580892,122,Home Page,200,OK,Scenario 1 1-67,text,true,,51151,313,1,1,http://192.168.1.10:5005/,55,0,22
+1610139581891,77,Home Page,200,OK,Scenario 1 1-68,text,true,,51151,313,1,1,http://192.168.1.10:5005/,37,0,5
+1610139582899,105,Home Page,200,OK,Scenario 1 1-69,text,true,,51151,313,1,1,http://192.168.1.10:5005/,20,0,7
+1610139583891,96,Home Page,200,OK,Scenario 1 1-70,text,true,,51151,313,1,1,http://192.168.1.10:5005/,84,0,67
+1610139584892,68,Home Page,200,OK,Scenario 1 1-71,text,true,,51151,313,1,1,http://192.168.1.10:5005/,21,0,14
+1610139585892,82,Home Page,200,OK,Scenario 1 1-72,text,true,,51151,313,1,1,http://192.168.1.10:5005/,48,0,35
+1610139586920,84,Home Page,200,OK,Scenario 1 1-73,text,true,,51151,313,1,1,http://192.168.1.10:5005/,38,0,19
+1610139587890,194,Home Page,200,OK,Scenario 1 1-74,text,true,,51151,313,1,1,http://192.168.1.10:5005/,177,0,12
+1610139588891,117,Home Page,200,OK,Scenario 1 1-75,text,true,,51151,313,1,1,http://192.168.1.10:5005/,67,0,40
+1610139589892,253,Home Page,200,OK,Scenario 1 1-76,text,true,,51151,313,1,1,http://192.168.1.10:5005/,76,0,38
+1610139590892,187,Home Page,200,OK,Scenario 1 1-77,text,true,,51151,313,1,1,http://192.168.1.10:5005/,11,0,3
+1610139591891,188,Home Page,200,OK,Scenario 1 1-78,text,true,,51151,313,1,1,http://192.168.1.10:5005/,27,0,8
+1610139592901,242,Home Page,200,OK,Scenario 1 1-79,text,true,,51151,313,1,1,http://192.168.1.10:5005/,23,0,7
+1610139593891,148,Home Page,200,OK,Scenario 1 1-80,text,true,,51151,313,1,1,http://192.168.1.10:5005/,31,0,12
+1610139594901,753,Home Page,200,OK,Scenario 1 1-81,text,true,,51151,313,1,1,http://192.168.1.10:5005/,549,0,238
+1610139595892,220,Home Page,200,OK,Scenario 1 1-82,text,true,,51151,313,1,1,http://192.168.1.10:5005/,106,0,85
+1610139596892,146,Home Page,200,OK,Scenario 1 1-83,text,true,,51151,313,1,1,http://192.168.1.10:5005/,51,0,30
+1610139597892,76,Home Page,200,OK,Scenario 1 1-84,text,true,,51151,313,1,1,http://192.168.1.10:5005/,32,0,19
+1610139598891,307,Home Page,200,OK,Scenario 1 1-85,text,true,,51151,313,1,1,http://192.168.1.10:5005/,131,0,19
+1610139599891,183,Home Page,200,OK,Scenario 1 1-86,text,true,,51151,313,1,1,http://192.168.1.10:5005/,73,0,27
+1610139601853,162,Home Page,200,OK,Scenario 1 1-87,text,true,,51151,313,2,2,http://192.168.1.10:5005/,85,0,42
+1610139601893,170,Home Page,200,OK,Scenario 1 1-88,text,true,,51151,313,1,1,http://192.168.1.10:5005/,58,0,39
+1610139604187,381,Home Page,200,OK,Scenario 1 1-89,text,true,,51151,313,2,2,http://192.168.1.10:5005/,89,0,63
+1610139604189,403,Home Page,200,OK,Scenario 1 1-90,text,true,,51151,313,1,1,http://192.168.1.10:5005/,87,0,60
+1610139609428,178,Home Page,200,OK,Scenario 1 1-95,text,true,,51151,313,5,5,http://192.168.1.10:5005/,39,0,4
+1610139609428,212,Home Page,200,OK,Scenario 1 1-91,text,true,,51151,313,4,4,http://192.168.1.10:5005/,56,0,5
+1610139609428,212,Home Page,200,OK,Scenario 1 1-93,text,true,,51151,313,4,4,http://192.168.1.10:5005/,56,0,5
+1610139609428,213,Home Page,200,OK,Scenario 1 1-94,text,true,,51151,313,4,4,http://192.168.1.10:5005/,56,0,5
+1610139609428,212,Home Page,200,OK,Scenario 1 1-92,text,true,,51151,313,4,4,http://192.168.1.10:5005/,60,0,5
+1610139609894,119,Home Page,200,OK,Scenario 1 1-96,text,true,,51151,313,1,1,http://192.168.1.10:5005/,47,0,37
+1610139610892,212,Home Page,200,OK,Scenario 1 1-97,text,true,,51151,313,1,1,http://192.168.1.10:5005/,80,0,55
+1610139611891,96,Home Page,200,OK,Scenario 1 1-98,text,true,,51151,313,1,1,http://192.168.1.10:5005/,45,0,14
+1610139615137,146,Home Page,200,OK,Scenario 1 1-99,text,true,,51151,313,2,2,http://192.168.1.10:5005/,46,0,22
+1610139615135,148,Home Page,200,OK,Scenario 1 1-100,text,true,,51151,313,2,2,http://192.168.1.10:5005/,47,0,24
